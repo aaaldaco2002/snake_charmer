@@ -20,12 +20,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget { //widget is UI and layout and styling
   MyHomePage({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
@@ -53,16 +54,40 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return Scaffold(
-      body: Center(
+    return Scaffold(//term for collection of UI on screen with essentially the access to all of the sections of the screen
+     appBar: AppBar(
+       title: Text('Snake Species List',
+          style: TextStyle(
+            color: Colors.black,
+          )
+       ),
+        backgroundColor: Colors.white,
+       actions: <Widget>[
+         FlatButton(
+           child: Text(
+             'Filter'
+           ),
+           onPressed: (){
+
+           },
+         )
+       ],
+     ),
+      body: Center(//center something
 
         child: Container(
           width: MediaQuery.of(context).size.width,
-           color: Colors.blueGrey[450],
+           color: Colors.black,
            child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.start,
-
+            children: <Widget>[
+              Container(
+                width: MediaQuery.of(context).size.width,
+                height: 32.0,
+                color: Colors.grey,
+              )
+            ],
         ),)
       )
       );
