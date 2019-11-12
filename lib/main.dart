@@ -74,8 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
        ],
      ),
       body: Center(//center something
-
         child: Container(
+
           width: MediaQuery.of(context).size.width,
            color: Colors.black,
            child: Column(
@@ -86,10 +86,34 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: MediaQuery.of(context).size.width,
                 height: 32.0,
                 color: Colors.grey,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Icon(
+                      Icons.search,
+                    ),
+                    Text(
+                      'Search'
+                    )
+                  ],
+                )
               )
             ],
         ),)
-      )
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon:Icon(Icons.camera_alt),
+            title: Text(''),
+          ),
+         BottomNavigationBarItem(
+           icon:Icon(Icons.image),
+           title: Text(''),
+         )
+        ],
+      ),
       );
+
   }
 }
