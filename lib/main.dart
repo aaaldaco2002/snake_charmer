@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:image_picker/image_picker.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -97,11 +97,11 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
-          onPressed: null,
+          //onTap: openCamera,
         ),
         IconButton(
           icon: Icon(Icons.image),
-          onPressed: null,
+          //onTap: openGallary,
         )
       ],
     );
