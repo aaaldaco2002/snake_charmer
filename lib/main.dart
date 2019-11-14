@@ -79,18 +79,37 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Container(
-                width: MediaQuery.of(context).size.width,
-                height: 32.0,
-                color: Colors.grey,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Icon(
-                      Icons.search,
-                    ),
-                    Text('Search')
-                  ],
-                ))
+              width: MediaQuery.of(context).size.width,
+              height: 32.0,
+              color: Colors.grey,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(
+                    Icons.search,
+                  ),
+                  Text('Search'),
+                ],
+              ),
+            ),
+            ListView(
+              shrinkWrap: true,
+              children: <Widget>[
+                Container(
+                  decoration: BoxDecoration(
+                      color: Colors.black,
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 1.0,
+                    )
+                  ),
+                  width: MediaQuery.of(context).size.width,
+                  height: 72.0,
+                  child: Row(),
+
+                ),
+              ],
+            )
           ],
         ),
       )),
