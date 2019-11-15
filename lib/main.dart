@@ -44,8 +44,13 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
-
 class _MyHomePageState extends State<MyHomePage> {
+  Future getImage() async {
+    var image = await ImagePicker.pickImage(source: ImageSource.camera);
+  }
+    Future takeImage() async {
+      var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+    }
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
