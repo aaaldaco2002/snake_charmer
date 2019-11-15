@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:image_picker/image_picker.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -44,8 +44,13 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
-
 class _MyHomePageState extends State<MyHomePage> {
+  Future getImage() async {
+    var image = await ImagePicker.pickImage(source: ImageSource.camera);
+  }
+    Future takeImage() async {
+      var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+    }
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -145,12 +150,12 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
-          onPressed: null,
+          //onTap: openCamera,
         ),
         IconButton(
           icon: Icon(Icons.image),
-          onPressed: null,
-        ),
+          //onTap: openGallary,
+        )
       ],
     );
   }
