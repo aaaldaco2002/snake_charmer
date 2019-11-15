@@ -121,10 +121,12 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
+          onPressed: getImage,
           //onTap: openCamera,
         ),
         IconButton(
           icon: Icon(Icons.image),
+          onPressed: takeImage,
           //onTap: openGallary,
         )
       ],
