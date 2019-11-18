@@ -108,34 +108,49 @@ class _MyHomePageState extends State<MyHomePage> {
                           width: 1.0,
                         )),
                     width: MediaQuery.of(context).size.width,
-                    height: 84.0,
+                    height: 108.0,
                     child: Row(
                       children: <Widget>[
                         Padding(
-                          padding: const EdgeInsets.only(left: 32.0, right: 32.0),
+                          padding: const EdgeInsets.only(left: 17.0, right: 17.0),
                           child: Container(
-                            width: 60,
-                            height: 60,
+                            width: 74,
+                            height: 74,
                             color: Colors.grey,
                           ),
                         ),
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: <Widget>[
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                children: <Widget>[
-                                  Padding(
-                                    padding: const EdgeInsets.only(top: 8.0),
-                                    child: Text('Test',
-                                    style: TextStyle(color: Colors.white),),
+                          child: Padding(
+                            padding: const EdgeInsets.only(right: 17.0),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: <Widget>[
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 17.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: <Widget>[
+                                      Text('(Snake Specie)',
+                                      style: TextStyle(color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      ),),
+                                      Text('(Danger Rating)',
+                                        style: TextStyle(color: Colors.white,
+                                        decoration: TextDecoration.underline
+                                        ),
+                                      ),
+                                    ],
                                   ),
-
-                                ],
-                              ),
-                            ],
+                                ),
+                                SizedBox(
+                                  height: 8.0,
+                                ),
+                                Text('(Brief Informtion)',
+                                  style: TextStyle(color: Colors.white),
+                                    )
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -154,7 +169,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         IconButton(
           icon: Icon(Icons.image),
-          //onTap: openGallary,
+          //onTap: openGallery,
         )
       ],
     );
