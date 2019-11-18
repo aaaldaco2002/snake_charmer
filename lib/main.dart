@@ -75,49 +75,78 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: Center(
-          //center something
-          child: Container(
-        width: MediaQuery.of(context).size.width,
-        color: Colors.black,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Container(
-              width: MediaQuery.of(context).size.width,
-              height: 32.0,
-              color: Colors.grey,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+        //center something
+        child: Container(
+          width: MediaQuery.of(context).size.width,
+          color: Colors.black,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              Container(
+                width: MediaQuery.of(context).size.width,
+                height: 32.0,
+                color: Colors.grey,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Icon(
+                      Icons.search,
+                    ),
+                    Text('Search'),
+                  ],
+                ),
+              ),
+              ListView(
+                shrinkWrap: true,
                 children: <Widget>[
-                  Icon(
-                    Icons.search,
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 1.0,
+                        )),
+                    width: MediaQuery.of(context).size.width,
+                    height: 84.0,
+                    child: Row(
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.only(left: 32.0, right: 32.0),
+                          child: Container(
+                            width: 60,
+                            height: 60,
+                            color: Colors.grey,
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: <Widget>[
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: <Widget>[
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 8.0),
+                                    child: Text('Test',
+                                    style: TextStyle(color: Colors.white),),
+                                  ),
+
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  Text('Search'),
                 ],
               ),
-            ),
-            ListView(
-              shrinkWrap: true,
-              children: <Widget>[
-                Container(
-                  decoration: BoxDecoration(
-                      color: Colors.black,
-                    border: Border.all(
-                      color: Colors.white,
-                      width: 1.0,
-                    )
-                  ),
-                  width: MediaQuery.of(context).size.width,
-                  height: 72.0,
-                  child: Row(),
-
-                ),
-              ],
-            )
-          ],
+            ],
+          ),
         ),
-      )),
+      ),
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
