@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:snake_charmer/detail_view.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -44,13 +46,16 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
+
 class _MyHomePageState extends State<MyHomePage> {
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.camera);
   }
-    Future takeImage() async {
-      var image = await ImagePicker.pickImage(source: ImageSource.gallery);
-    }
+
+  Future takeImage() async {
+    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -100,60 +105,71 @@ class _MyHomePageState extends State<MyHomePage> {
               ListView(
                 shrinkWrap: true,
                 children: <Widget>[
-                  Container(
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    width: MediaQuery.of(context).size.width,
-                    height: 108.0,
-                    child: Row(
-                      children: <Widget>[
-                        Padding(
-                          padding: const EdgeInsets.only(left: 17.0, right: 17.0),
-                          child: Container(
-                            width: 74,
-                            height: 74,
-                            color: Colors.grey,
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.only(right: 17.0),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: <Widget>[
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 17.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: <Widget>[
-                                      Text('(Snake Specie)',
-                                      style: TextStyle(color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      ),),
-                                      Text('(Danger Rating)',
-                                        style: TextStyle(color: Colors.white,
-                                        decoration: TextDecoration.underline
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                SizedBox(
-                                  height: 8.0,
-                                ),
-                                Text('(Brief Informtion)',
-                                  style: TextStyle(color: Colors.white),
-                                    )
-                              ],
+                  GestureDetector(
+                    onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>DetailView())),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.black,
+                          border: Border.all(
+                            color: Colors.white,
+                            width: 1.0,
+                          )),
+                      width: MediaQuery.of(context).size.width,
+                      height: 108.0,
+                      child: Row(
+                        children: <Widget>[
+                          Padding(
+                            padding:
+                                const EdgeInsets.only(left: 17.0, right: 17.0),
+                            child: Container(
+                              width: 74,
+                              height: 74,
+                              color: Colors.grey,
                             ),
                           ),
-                        ),
-                      ],
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.only(right: 17.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: <Widget>[
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 17.0),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: <Widget>[
+                                        Text(
+                                          '(Snake Specie)',
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          '(Danger Rating)',
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              decoration:
+                                                  TextDecoration.underline),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 8.0,
+                                  ),
+                                  Text(
+                                    '(Brief Informtion)',
+                                    style: TextStyle(color: Colors.white),
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
