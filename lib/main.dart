@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:snake_charmer/detail_view.dart';
@@ -79,34 +80,48 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ],
       ),
-      body: Center(
-        //center something
-        child: Container(
-          width: MediaQuery.of(context).size.width,
-          color: Colors.black,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: <Widget>[
-              Container(
-                width: MediaQuery.of(context).size.width,
-                height: 32.0,
-                color: Colors.grey,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Icon(
-                      Icons.search,
-                    ),
-                    Text('Search'),
-                  ],
-                ),
-              ),
-              ListView(
-                shrinkWrap: true,
+      body: Container(
+        width: MediaQuery.of(context).size.width,
+        color: Colors.black,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              width: MediaQuery.of(context).size.width,
+              height: 32.0,
+              color: Colors.grey,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  GestureDetector(
-                    onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>DetailView())),
+              Expanded(
+              child: Padding(
+                padding: const EdgeInsets.only(top: 3.0,),
+                child: TextField(
+                      decoration: (
+                      InputDecoration(
+                        contentPadding: EdgeInsets.only(top: 3.5,),
+                        border: InputBorder.none,
+                        prefixIcon: Icon(Icons.search),
+                        hintText: 'Search',
+                      )
+                      ),
+                    ),
+              ),
+            ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: ListView.builder(
+                shrinkWrap: true,
+                itemCount: 30,
+                itemBuilder: (BuildContext context, int index) {
+                  return GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DetailView())),
                     child: Container(
                       decoration: BoxDecoration(
                           color: Colors.black,
@@ -119,8 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Row(
                         children: <Widget>[
                           Padding(
-                            padding:
-                                const EdgeInsets.only(left: 17.0, right: 17.0),
+                            padding: const EdgeInsets.only(
+                                left: 17.0, right: 17.0),
                             child: Container(
                               width: 74,
                               height: 74,
@@ -171,11 +186,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         ],
                       ),
                     ),
-                  ),
-                ],
+                  );
+                },
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
       persistentFooterButtons: <Widget>[
