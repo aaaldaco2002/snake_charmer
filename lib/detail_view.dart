@@ -31,12 +31,16 @@ class _DetailViewState extends State<DetailView> {
               width: 210.0,
               height: 210.0,
             ),
+            //Image.asset(
+              //"assets/VENOM_NEGATIVE.png",
+              //width: 75.0,
+              //height: 75.0,
+            //),
             Text(
               'Information',
               style: TextStyle(
                   color: Colors.white,
-                fontFamily: 'RobotoMono-Regular',
-
+                fontFamily: 'Roboto Mono',
               ),
               textAlign: TextAlign.center,
             ),
