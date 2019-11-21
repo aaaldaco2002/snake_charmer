@@ -49,6 +49,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  String dropdownValue = 'Danger Level';
+
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.camera);
   }
@@ -68,15 +70,27 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       //term for collection of UI on screen with essentially the access to all of the sections of the screen
       appBar: AppBar(
-        title: Text('Snake Species List',
+        title: Text('DATABASE',
             style: TextStyle(
               color: Colors.black,
             )),
         backgroundColor: Colors.white,
         actions: <Widget>[
-          FlatButton(
-            child: Text('Filter'),
-            onPressed: () {},
+          DropdownButton<String> (
+            value: dropdownValue,
+            onChanged: (String newValue) {
+              setState(() {
+                dropdownValue = newValue;
+              });
+            },
+            items: <String>['Danger Level', 'Specie', 'Size', 'Location', 'No Filter']
+                .map<DropdownMenuItem<String>>((String value) {
+              return DropdownMenuItem<String>(
+                value: value,
+                child: Text(value),
+              );
+            })
+                .toList(),
           )
         ],
       ),
