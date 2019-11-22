@@ -49,6 +49,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int activeFilters = 0;
+
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.camera);
   }
@@ -68,17 +70,20 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       //term for collection of UI on screen with essentially the access to all of the sections of the screen
       appBar: AppBar(
-        title: Text('Snake Species List',
+        title: Text('DATABASE',
             style: TextStyle(
               color: Colors.black,
             )),
         backgroundColor: Colors.white,
         actions: <Widget>[
           FlatButton(
-            child: Text('Filter'),
-            onPressed: () {},
-          )
-        ],
+            child: Text('Filters (' + activeFilters.toString() +')'),
+    onPressed: (){
+
+    },
+
+      ),
+      ],
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,
