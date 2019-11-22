@@ -49,7 +49,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String dropdownValue = 'Danger Level';
+  int activeFilters = 0;
 
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.camera);
@@ -76,23 +76,14 @@ class _MyHomePageState extends State<MyHomePage> {
             )),
         backgroundColor: Colors.white,
         actions: <Widget>[
-          DropdownButton<String> (
-            value: dropdownValue,
-            onChanged: (String newValue) {
-              setState(() {
-                dropdownValue = newValue;
-              });
-            },
-            items: <String>['Danger Level', 'Specie', 'Size', 'Location', 'No Filter']
-                .map<DropdownMenuItem<String>>((String value) {
-              return DropdownMenuItem<String>(
-                value: value,
-                child: Text(value),
-              );
-            })
-                .toList(),
-          )
-        ],
+          FlatButton(
+            child: Text('Filters (' + activeFilters.toString() +')'),
+    onPressed: (){
+
+    },
+
+      ),
+      ],
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,
