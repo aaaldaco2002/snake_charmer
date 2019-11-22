@@ -16,7 +16,7 @@ class _DetailViewState extends State<DetailView> {
           children: <Widget>[
             Text('Species',
               style: TextStyle(
-                  color: Colors.white
+                  color: Colors.white,
               ),
               textAlign: TextAlign.center,
             ),
@@ -31,16 +31,24 @@ class _DetailViewState extends State<DetailView> {
               width: 210.0,
               height: 210.0,
             ),
-            //Image.asset(
-              //"assets/VENOM_NEGATIVE.png",
-              //width: 75.0,
-              //height: 75.0,
-            //),
+            Image.asset(
+              "assets/venom_negative.png",
+              width: 75.0,
+              height: 75.0,
+            ),
+            Text(
+              'Nonvenomous',
+              style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'Roboto Mono',
+              ),
+              textAlign: TextAlign.center,
+            ),
             Text(
               'Information',
               style: TextStyle(
                   color: Colors.white,
-                fontFamily: 'Roboto Mono',
+                  fontFamily: 'Roboto Mono',
               ),
               textAlign: TextAlign.center,
             ),
@@ -66,11 +74,6 @@ class _DetailViewState extends State<DetailView> {
               ),
               textAlign: TextAlign.center,
             ),
-
-
-
-            //Image.asset(Dangerlevel)
-
           ],
         ),
       ),
