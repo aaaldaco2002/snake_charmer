@@ -101,10 +101,10 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-              Expanded(
-              child: Padding(
-                padding: const EdgeInsets.only(top: 3.0,),
-                child: TextField(
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 3.0,),
+                    child: TextField(
                       decoration: (
                       InputDecoration(
                         contentPadding: EdgeInsets.only(top: 3.5,),
