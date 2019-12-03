@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:snake_charmer/detail_view.dart';
+import 'package:snake_charmer/filter_home.dart';
 
 void main() => runApp(MyApp());
 
@@ -78,9 +79,10 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: <Widget>[
           FlatButton(
             child: Text('Filters (' + activeFilters.toString() +')'),
-    onPressed: (){
-
-    },
+            onPressed: ()=> Navigator.push(
+            context,
+            MaterialPageRoute(
+            builder: (context) => FilterHome())),
 
       ),
       ],
@@ -99,10 +101,10 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-              Expanded(
-              child: Padding(
-                padding: const EdgeInsets.only(top: 3.0,),
-                child: TextField(
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 3.0,),
+                    child: TextField(
                       decoration: (
                       InputDecoration(
                         contentPadding: EdgeInsets.only(top: 3.5,),
