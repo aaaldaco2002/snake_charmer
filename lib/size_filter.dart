@@ -42,7 +42,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('Range 1',
+                      title: Text('4\" to 3\'4\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -64,7 +64,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('Range 2',
+                      title: Text('41',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,

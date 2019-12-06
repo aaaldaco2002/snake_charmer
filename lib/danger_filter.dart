@@ -25,7 +25,7 @@ class _DangerFilterState extends State<DangerFilter> {
         body: Container(
             color: Colors.black,
             child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Container(
@@ -38,7 +38,7 @@ class _DangerFilterState extends State<DangerFilter> {
                         )),
                     height: 64.0,
                     child: ListTile(
-                      leading: Image.asset('assets/python.jpg'),
+                      leading: Image.asset('assets/venom_negative.png'),
                       trailing: Icon(
                         Icons.add_circle_outline,
                         color: Colors.white,
@@ -61,7 +61,10 @@ class _DangerFilterState extends State<DangerFilter> {
                         )),
                     height: 64.0,
                     child: ListTile(
-                      leading: Image.asset('assets/python.jpg'),
+                      leading: Padding(
+                        padding: const EdgeInsets.only(left: 7.0,),
+                        child: Image.asset('assets/venom_positive.png'),
+                      ),
                       trailing: Icon(
                         Icons.add_circle_outline,
                         color: Colors.white,
@@ -84,7 +87,10 @@ class _DangerFilterState extends State<DangerFilter> {
                         )),
                     height: 64.0,
                     child: ListTile(
-                      leading: Image.asset('assets/python.jpg'),
+                      leading: Padding(
+                        padding: const EdgeInsets.only(left: 7.0,),
+                        child: Image.asset('assets/venom_negative_lethal.png'),
+                      ),
                       trailing: Icon(
                         Icons.add_circle_outline,
                         color: Colors.white,
