@@ -1,21 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:snake_charmer/danger_filter.dart';
-import 'package:snake_charmer/location_filter.dart';
-import 'package:snake_charmer/size_filter.dart';
-import 'package:snake_charmer/family_filter.dart';
 
-class FilterHome extends StatefulWidget {
+class SizeFilter extends StatefulWidget {
   @override
-  _FilterHomeState createState() => _FilterHomeState();
+  _SizeFilterState createState() => _SizeFilterState();
 }
 
-class _FilterHomeState extends State<FilterHome> {
+class _SizeFilterState extends State<SizeFilter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('FILTERS',
+          title: Text('SIZE',
               style: TextStyle(
                 color: Colors.black,
               )),
@@ -32,30 +28,26 @@ class _FilterHomeState extends State<FilterHome> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-               Container(
-                width: MediaQuery.of(context).size.width,
-                decoration: BoxDecoration(
-                color: Colors.black,
-                border: Border.all(
-                  color: Colors.white,
-                  width: 1.0,
-                )),
-                height: 64.0,
-                child: ListTile(
-                  trailing: Icon(
-                    Icons.chevron_right,
-                    color: Colors.white,
-                  ),
-                      title: Text('Size',
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 1.0,
+                        )),
+                    height: 64.0,
+                    child: ListTile(
+                      trailing: Icon(
+                        Icons.add_circle_outline,
+                        color: Colors.white,
+                      ),
+                      title: Text('Range 1',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                             fontSize: 26.0,
                           )),
-                  onTap: ()=> Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => SizeFilter())),
                     ),
                   ),
                   Container(
@@ -69,19 +61,15 @@ class _FilterHomeState extends State<FilterHome> {
                     height: 64.0,
                     child: ListTile(
                       trailing: Icon(
-                        Icons.chevron_right,
+                        Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('Family',
+                      title: Text('Range 2',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                             fontSize: 26.0,
                           )),
-                      onTap: ()=> Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => FamilyFilter())),
                     ),
                   ),
                   Container(
@@ -95,51 +83,17 @@ class _FilterHomeState extends State<FilterHome> {
                     height: 64.0,
                     child: ListTile(
                       trailing: Icon(
-                        Icons.chevron_right,
+                        Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('Location',
+                      title: Text('Range 3',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
                             fontSize: 26.0,
                           )),
-                      onTap: ()=> Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => LocationFilter())),
                     ),
                   ),
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    height: 64.0,
-                    child: ListTile(
-                      trailing: Icon(
-                        Icons.chevron_right,
-                        color: Colors.white,
-                      ),
-                      title: Text('Danger Level',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 26.0,
-                          )),
-                      onTap: ()=> Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => DangerFilter())),
-                    ),
-
-                  ),
-        ]
-    )
-    )
-    );
+                ])));
   }
 }
