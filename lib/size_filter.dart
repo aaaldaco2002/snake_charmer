@@ -64,7 +64,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('41',
+                      title: Text('3\'5\" to 6\'8\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -86,7 +86,73 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('Range 3',
+                      title: Text('6\'9\" to 10\'',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 26.0,
+                          )),
+                    ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 1.0,
+                        )),
+                    height: 64.0,
+                    child: ListTile(
+                      trailing: Icon(
+                        Icons.add_circle_outline,
+                        color: Colors.white,
+                      ),
+                      title: Text('10\' to 13\'4\"',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 26.0,
+                          )),
+                    ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 1.0,
+                        )),
+                    height: 64.0,
+                    child: ListTile(
+                      trailing: Icon(
+                        Icons.add_circle_outline,
+                        color: Colors.white,
+                      ),
+                      title: Text('13\'5\" to 16\'8\"',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 26.0,
+                          )),
+                    ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 1.0,
+                        )),
+                    height: 64.0,
+                    child: ListTile(
+                      trailing: Icon(
+                        Icons.add_circle_outline,
+                        color: Colors.white,
+                      ),
+                      title: Text('16\'9\" to 20\'',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
