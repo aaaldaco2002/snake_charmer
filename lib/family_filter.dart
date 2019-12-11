@@ -10,69 +10,57 @@ class _FamilyFilterState extends State<FamilyFilter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('FAMILY',
-            style: TextStyle(
-              color: Colors.black,
-            )),
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
-          color: Colors.black,
+        appBar: AppBar(
+          title: Text('FAMILY',
+              style: TextStyle(
+                color: Colors.black,
+              )),
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () => Navigator.pop(context),
+            color: Colors.black,
+          ),
+          backgroundColor: Colors.white,
         ),
-        backgroundColor: Colors.white,
-      ),
         body: Container(
             color: Colors.black,
-            child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    height: 64.0,
-                    child: ListTile(
-                      trailing: Icon(
-                        Icons.add_circle_outline,
-                        color: Colors.white,
+            child: ListView.builder(
+                shrinkWrap: true,
+                itemCount: 20,
+                itemBuilder: (BuildContext context, int index) {
+                  return GestureDetector(
+
+                      child: Row(
+                          children: <Widget>[
+                            Container(
+                              width: MediaQuery
+                                  .of(context)
+                                  .size
+                                  .width,
+                              decoration: BoxDecoration(
+                                  color: Colors.black,
+                                  border: Border.all(
+                                    color: Colors.white,
+                                    width: 1.0,
+                                  )),
+                              child: ListTile(
+                                trailing: Icon(
+                                  Icons.add_circle_outline,
+                                  color: Colors.white,
+                                ),
+                                title: Text('Acrochordidae (File Snakes)',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20.0,
+                                    )),
+                              ),
+                            )
+                          ]
                       ),
-                      title: Text('Range 1',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 26.0,
-                          )),
-                    ),
-                  ),
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    height: 64.0,
-                    child: ListTile(
-                      trailing: Icon(
-                        Icons.add_circle_outline,
-                        color: Colors.white,
-                      ),
-                      title: Text('Range 2',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 26.0,
-                          )),
-                    ),
-                  ),
-                ]))
-    );
+                  );
+                }
+            )
+        ));
   }
 }
