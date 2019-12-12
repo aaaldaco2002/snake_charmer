@@ -42,7 +42,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('4\" to 3\'4\"',
+                      title: Text('4\" to 3\' 4\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -64,7 +64,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('3\'5\" to 6\'8\"',
+                      title: Text('3\' 5\" to 6\' 8\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -86,7 +86,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('6\'9\" to 10\'',
+                      title: Text('6\' 9\" to 10\'',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -108,7 +108,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('10\' to 13\'4\"',
+                      title: Text('10\' to 13\' 4\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -130,7 +130,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('13\'5\" to 16\'8\"',
+                      title: Text('13\' 5\" to 16\' 8\"',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -152,7 +152,7 @@ class _SizeFilterState extends State<SizeFilter> {
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
-                      title: Text('16\'9\" to 20\'',
+                      title: Text('16\' 9\" to 20\'',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
