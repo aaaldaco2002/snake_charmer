@@ -36,6 +36,11 @@ class _DetailViewState extends State<DetailView> {
               width: 75.0,
               height: 75.0,
             ),
+            Image.asset(
+              "assets/lethal.png",
+              width: 75.0,
+              height: 75.0,
+            ),
             Text(
               'Nonvenomous',
               style: TextStyle(

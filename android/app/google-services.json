@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "485604287523",
+    "firebase_url": "https://snake-charmer-ee6e4.firebaseio.com",
+    "project_id": "snake-charmer-ee6e4",
+    "storage_bucket": "snake-charmer-ee6e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485604287523:android:c2f7b59b94325b55dbbd96",
+        "android_client_info": {
+          "package_name": "com.alterra.snakecharmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485604287523-vnb2j872n10mcee769f0jnd47o1pl1vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZzcZc5j19TE_kqWMnoaLTDaWgjxhYL34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485604287523-vnb2j872n10mcee769f0jnd47o1pl1vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
