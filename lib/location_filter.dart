@@ -6,6 +6,10 @@ class LocationFilter extends StatefulWidget {
   _LocationFilterState createState() => _LocationFilterState();
 }
 
+List<String> locationTitle = [
+  'Temperate Climate', 'Arid Climate', 'Damp Tropical Climate', 'Mild Mediterranean Climate', 'North America', 'South America', 'Northern Africa', 'Southern Africa', 'Northern Europe', 'Southern Europe', 'Northern Asia', 'Southern Asia', 'Eastern Asia', 'Australia',
+];
+
 class _LocationFilterState extends State<LocationFilter> {
   @override
   Widget build(BuildContext context) {
@@ -24,55 +28,33 @@ class _LocationFilterState extends State<LocationFilter> {
       ),
         body: Container(
             color: Colors.black,
-            child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    height: 64.0,
-                    child: ListTile(
-                      trailing: Icon(
-                        Icons.add_circle_outline,
-                        color: Colors.white,
-                      ),
-                      title: Text('Range 1',
-                          style: TextStyle(
+            child: ListView.builder(
+                shrinkWrap: true,
+                itemCount: 14,
+                itemBuilder: (BuildContext context, int index) {
+                  return GestureDetector(
+                      child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        decoration: BoxDecoration(
+                            color: Colors.black,
+                            border: Border.all(
+                              color: Colors.white,
+                              width: 1.0,
+                            )),
+                        child: ListTile(
+                          trailing: Icon(
+                            Icons.add_circle_outline,
                             color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 26.0,
-                          )),
-                    ),
-                  ),
-                  Container(
-                    width: MediaQuery.of(context).size.width,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        border: Border.all(
-                          color: Colors.white,
-                          width: 1.0,
-                        )),
-                    height: 64.0,
-                    child: ListTile(
-                      trailing: Icon(
-                        Icons.add_circle_outline,
-                        color: Colors.white,
-                      ),
-                      title: Text('Range 2',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 26.0,
-                          )),
-                    ),
-                  ),
-                ]))
+                          ),
+                          title: Text(locationTitle[index],
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20.0,
+                              )),
+                        ),
+                      ));
+                }))
     );
   }
 }
