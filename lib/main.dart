@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:snake_charmer/detail_view.dart';
 import 'package:snake_charmer/filter_home.dart';
+import 'package:snake_charmer/welcome_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Welcome()//MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

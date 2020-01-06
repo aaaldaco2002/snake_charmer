@@ -38,8 +38,11 @@ class _DangerFilterState extends State<DangerFilter> {
                         )),
                     height: 64.0,
                     child: ListTile(
-                      leading: Image.asset('assets/venom_negative.png'),
-                      trailing: Icon(
+                      leading: Padding(
+                        padding: const EdgeInsets.only(left: 1,top: 5),
+                        child: Image.asset('assets/venom_negative.png'),
+                      ),
+                        trailing: Icon(
                         Icons.add_circle_outline,
                         color: Colors.white,
                       ),
@@ -47,7 +50,7 @@ class _DangerFilterState extends State<DangerFilter> {
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 14.0,
+                            fontSize: 20.0,
                           )),
                     ),
                   ),
@@ -62,7 +65,7 @@ class _DangerFilterState extends State<DangerFilter> {
                     height: 64.0,
                     child: ListTile(
                       leading: Padding(
-                        padding: const EdgeInsets.only(left: 7.0,),
+                        padding: const EdgeInsets.only(left: 7.0,top: 5),
                         child: Image.asset('assets/venom_positive.png'),
                       ),
                       trailing: Icon(
@@ -73,7 +76,7 @@ class _DangerFilterState extends State<DangerFilter> {
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 14.0,
+                            fontSize: 20.0,
                           )),
                     ),
                   ),
@@ -88,7 +91,7 @@ class _DangerFilterState extends State<DangerFilter> {
                     height: 64.0,
                     child: ListTile(
                       leading: Padding(
-                        padding: const EdgeInsets.only(left: 7.0,),
+                        padding: const EdgeInsets.only(left: 7.0,top: 5),
                         child: Image.asset('assets/venom_negative_lethal.png'),
                       ),
                       trailing: Icon(
@@ -99,7 +102,7 @@ class _DangerFilterState extends State<DangerFilter> {
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
-                            fontSize: 14.0,
+                            fontSize: 20.0,
                           )),
                     ),
                   ),
