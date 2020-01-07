@@ -13,7 +13,16 @@ class _WelcomeState extends State<Welcome> {
         body: Container(
           width: MediaQuery.of(context).size.width,
           color: Colors.black,
+          child: Column(
+           crossAxisAlignment: CrossAxisAlignment.center,
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: <Widget>[
+             Column(
+
+             )
+             ]
         )
+    )
     );
   }
 }
