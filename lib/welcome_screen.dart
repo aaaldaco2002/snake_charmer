@@ -17,9 +17,7 @@ class _WelcomeState extends State<Welcome> {
            crossAxisAlignment: CrossAxisAlignment.center,
            mainAxisAlignment: MainAxisAlignment.center,
            children: <Widget>[
-             Column(
 
-             )
              ]
         )
     )
