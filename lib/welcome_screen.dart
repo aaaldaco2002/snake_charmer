@@ -11,17 +11,26 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-          width: MediaQuery.of(context).size.width,
-          color: Colors.black,
-          child: Column(
-           crossAxisAlignment: CrossAxisAlignment.center,
-           mainAxisAlignment: MainAxisAlignment.center,
-           children: <Widget>[
-
-             ]
-        )
-    )
-    );
+            width: MediaQuery.of(context).size.width,
+            color: Colors.black,
+            child: Column(children: <Widget>[
+              Padding(
+                  padding: const EdgeInsets.only(left: 85.0, top: 75.0),
+                  child: Row(children: <Widget>[
+                    Text(
+                      'Welcome to',
+                      style: TextStyle(color: Colors.white, fontSize: 40.0),
+                    ),
+                  ])),
+              Padding(
+                  padding: const EdgeInsets.only(left: 55.0, top: 15.0),
+                  child: Row(children: <Widget>[
+                    Text(
+                      'Snake Charmer',
+                      style: TextStyle(color: Colors.white, fontSize: 40.0),
+                    ),
+                  ]))
+            ])));
+    
   }
 }
-
