@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:snake_charmer/home_page.dart';
 import 'package:snake_charmer/welcome_screen.dart';
 
 void main() => runApp(MyApp());
@@ -37,7 +38,6 @@ class LoginCheck extends StatelessWidget {
 
     return hasLoggedin;
 
-
   }
 
   @override
@@ -45,11 +45,19 @@ class LoginCheck extends StatelessWidget {
     return FutureBuilder<bool>(
       future: hasLoggedin(),
       builder: (context, snapshot) {
-        return Container();
+        if(snapshot.data == true) {
+          return MyHomePage();
+        }
+        else {
+      Future<bool> hasLoggedin()async{
+      final hasLoggedin = prefs.setBool('logged_in') ?? false;
       }
-    );
+      }
+          return Welcome();
+        }
+        );
+      }
   }
-}
 
 
 
