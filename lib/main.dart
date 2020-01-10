@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Welcome()//MyHomePage(title: 'Flutter Demo Home Page'),
+      home: LoginCheck()//MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -35,28 +35,33 @@ class LoginCheck extends StatelessWidget {
     final prefs = await SharedPreferences.getInstance();
     // read
     final hasLoggedin = prefs.getBool('logged_in') ?? false;
-
     return hasLoggedin;
 
   }
+
+  Future<void> setLoggedIn() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool('logged_in', true);
+  }
+
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<bool>(
       future: hasLoggedin(),
       builder: (context, snapshot) {
-        if(snapshot.data == true) {
+
+        if (snapshot.data == true) {
           return MyHomePage();
         }
         else {
-      Future<bool> hasLoggedin()async{
-      final hasLoggedin = prefs.setBool('logged_in') ?? false;
-      }
-      }
+          setLoggedIn();
           return Welcome();
         }
+      }
         );
       }
+
   }
 
 
