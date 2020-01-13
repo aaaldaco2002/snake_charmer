@@ -52,10 +52,9 @@ class LoginCheck extends StatelessWidget {
       builder: (context, snapshot) {
 
         if (snapshot.data == true) {
-          return MyHomePage();
+          return Welcome();//MyHomePage();
         }
         else {
-          setLoggedIn();
           return Welcome();
         }
       }
