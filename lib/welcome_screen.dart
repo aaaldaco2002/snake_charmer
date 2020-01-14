@@ -28,9 +28,24 @@ class _WelcomeState extends State<Welcome> {
                     Text(
                       'Snake Charmer',
                       style: TextStyle(color: Colors.white, fontSize: 40.0),
-                    ),
-                  ]))
-            ])));
-    
+                      ),
+                    ]
+                  )
+                ),
+              Padding(
+                padding: const EdgeInsets.only(left: 70.0, top: 300.0,),
+                child: Row(children: <Widget>[
+                  Text(
+                    'Continue to Snake Charmer',
+                    style: TextStyle(color: Colors.white, fontSize: 20.0),
+                      ),
+                    ]
+                  ),
+                ),
+              ]
+            )
+          ),
+        );
+
   }
 }
