@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:snake_charmer/home_page.dart';
 
 class Welcome extends StatefulWidget {
   @override
@@ -33,12 +34,28 @@ class _WelcomeState extends State<Welcome> {
                   )
                 ),
               Padding(
-                padding: const EdgeInsets.only(left: 70.0, top: 300.0,),
+                padding: const EdgeInsets.only(left: 50.0, top: 300.0,),
                 child: Row(children: <Widget>[
-                  Text(
-                    'Continue to Snake Charmer',
-                    style: TextStyle(color: Colors.white, fontSize: 20.0),
-                      ),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        width: 1.0,
+                        color: Colors.white,
+                      )
+                    ),
+                    child: FlatButton(
+                      child: Text(
+                        'Continue to Snake Charmer',
+                        style: TextStyle(color: Colors.white, fontSize: 20.0),
+                          ),
+
+                      onPressed: ()=> Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MyHomePage())),
+
+                    ),
+                  ),
                     ]
                   ),
                 ),
