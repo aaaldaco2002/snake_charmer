@@ -39,10 +39,6 @@ class LoginCheck extends StatelessWidget {
 
   }
 
-  Future<void> setLoggedIn() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setBool('logged_in', true);
-  }
 
 
   @override

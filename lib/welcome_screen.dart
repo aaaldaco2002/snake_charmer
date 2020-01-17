@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:snake_charmer/home_page.dart';
 
 class Welcome extends StatefulWidget {
@@ -8,6 +9,12 @@ class Welcome extends StatefulWidget {
 }
 
 class _WelcomeState extends State<Welcome> {
+
+  Future<void> setLoggedIn() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool('logged_in', true);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +41,7 @@ class _WelcomeState extends State<Welcome> {
                   )
                 ),
               Padding(
-                padding: const EdgeInsets.only(left: 50.0, top: 300.0,),
+                padding: const EdgeInsets.only(left: 83.0, top: 300.0,),
                 child: Row(children: <Widget>[
                   Container(
                     decoration: BoxDecoration(
@@ -45,15 +52,19 @@ class _WelcomeState extends State<Welcome> {
                     ),
                     child: FlatButton(
                       child: Text(
-                        'Continue to Snake Charmer',
+                        'Lets Start Charming!',
                         style: TextStyle(color: Colors.white, fontSize: 20.0),
                           ),
 
-                      onPressed: ()=> Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => MyHomePage())),
 
+
+                      onPressed: () {
+                        setLoggedIn();
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => MyHomePage()));
+                      }
                     ),
                   ),
                     ]
