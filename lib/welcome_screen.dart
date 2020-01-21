@@ -55,9 +55,6 @@ class _WelcomeState extends State<Welcome> {
                         'Lets Start Charming!',
                         style: TextStyle(color: Colors.white, fontSize: 20.0),
                           ),
-
-
-
                       onPressed: () {
                         setLoggedIn();
                         Navigator.push(
