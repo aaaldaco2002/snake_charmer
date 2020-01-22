@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:snake_charmer/detail_view.dart';
 import 'package:snake_charmer/filter_home.dart';
+import 'package:snake_charmer/info_page.dart';
 
 class MyHomePage extends StatefulWidget {
   //widget is UI and layout and styling
@@ -101,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onTap: () => Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => DetailView())),
+                            builder: (context) => InfoPage())),
                     child: Container(
                       decoration: BoxDecoration(
                           color: Colors.black,
