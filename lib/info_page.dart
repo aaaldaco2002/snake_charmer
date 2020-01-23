@@ -14,6 +14,9 @@ class _InfoPageState extends State<InfoPage> {
         color: Colors.black,
         child: ListView(
               children: <Widget>[
+                SizedBox(
+                  height: 16.0,
+                ),
               Text(
                 '(Specie Name)',
                 style: TextStyle(
@@ -79,9 +82,58 @@ class _InfoPageState extends State<InfoPage> {
                 ),
                 textAlign: TextAlign.center,
               ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                Row(children: <Widget>[
+                  SizedBox(
+                    width: 40.0,
+                  ),
+                  Text(
+                    'Gallery',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 32.0,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                  SizedBox(
+                    width: 60.0,
+                  ),
+                  Text(
+                    'More Info',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 32.0,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
         ]
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                Row(children: <Widget>[
+                  SizedBox(
+                    width: 64.0,
+                  ),
+                  Image.asset(
+                    "assets/venom_negative_lethal.png",
+                    width: 50.0,
+                    height: 50.0,
+                  ),
+                  SizedBox(
+                    width: 100.0,
+                  ),
+                  Column(
+                  ),
+        ]
+                  ),
+                ],
+                ),
           ),
-            )
-          );
+            );
   }
 }
