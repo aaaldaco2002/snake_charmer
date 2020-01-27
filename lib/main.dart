@@ -39,8 +39,6 @@ class LoginCheck extends StatelessWidget {
 
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<bool>(
@@ -48,7 +46,7 @@ class LoginCheck extends StatelessWidget {
       builder: (context, snapshot) {
 
         if (snapshot.data == true) {
-          return Welcome();//MyHomePage();
+          return MyHomePage();
         }
         else {
           return Welcome();
@@ -58,6 +56,3 @@ class LoginCheck extends StatelessWidget {
       }
 
   }
-
-
-

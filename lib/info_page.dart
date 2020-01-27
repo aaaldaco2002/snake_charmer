@@ -34,10 +34,16 @@ class _InfoPageState extends State<InfoPage> {
                 width: 210.0,
                 height: 210.0,
               ),
+              SizedBox(
+                height: 4.0,
+              ),
               Image.asset(
                 "assets/venom_negative_lethal.png",
                 width: 50.0,
                 height: 50.0,
+              ),
+              SizedBox(
+                height: 6.0,
               ),
               Text(
                 'Information',
@@ -113,21 +119,49 @@ class _InfoPageState extends State<InfoPage> {
         ]
                 ),
                 SizedBox(
-                  height: 8.0,
+                  height: 2.0,
                 ),
                 Row(children: <Widget>[
                   SizedBox(
                     width: 64.0,
                   ),
-                  Image.asset(
-                    "assets/venom_negative_lethal.png",
-                    width: 50.0,
-                    height: 50.0,
+                  Column(children: <Widget>[
+                    Image.asset(
+                      "assets/venom_negative_lethal.png",
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                  ],
                   ),
                   SizedBox(
-                    width: 100.0,
+                    width: 125.0,
                   ),
-                  Column(
+                  Column(children: <Widget> [
+                    Text(
+                      '(Link1)',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16.0,
+                      ),
+                    ),
+                    Text(
+                      '(Link2)',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16.0,
+                      ),
+                    ),
+                    Text(
+                      '(Link3)',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16.0,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 8.0,
+                    ),
+        ]
                   ),
         ]
                   ),
