@@ -77,11 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 3.0,),
+                      padding: const EdgeInsets.only(),
                       child: TextField(
                         decoration: (
                             InputDecoration(
-                              contentPadding: EdgeInsets.only(top: 3.5,),
+                              contentPadding: EdgeInsets.only(),
                               border: InputBorder.none,
                               prefixIcon: Icon(Icons.search),
                               hintText: 'Search',
