@@ -40,9 +40,10 @@ class _WelcomeState extends State<Welcome> {
                     ]
                   )
                 ),
-              Padding(
-                padding: const EdgeInsets.only(left: 83.0, top: 300.0,),
-                child: Row(children: <Widget>[
+              Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
@@ -52,7 +53,7 @@ class _WelcomeState extends State<Welcome> {
                     ),
                     child: FlatButton(
                       child: Text(
-                        'Lets Start Charming!',
+                      'Let Me Begin!',
                         style: TextStyle(color: Colors.white, fontSize: 20.0),
                           ),
                       onPressed: () {
@@ -66,7 +67,6 @@ class _WelcomeState extends State<Welcome> {
                   ),
                     ]
                   ),
-                ),
               ]
             )
           ),
