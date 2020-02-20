@@ -19,60 +19,66 @@ class _WelcomeState extends State<Welcome> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-            width: MediaQuery.of(context).size.width,
+            width: MediaQuery
+                .of(context)
+                .size
+                .width,
             color: Colors.black,
             child: Stack(
-              children: <Widget>[
+                children: <Widget>[
                 Column(children: <Widget>[
                   Padding(
-                      padding: const EdgeInsets.only(left: 85.0, top: 75.0),
+                    padding: const EdgeInsets.only(left: 85.0, top: 75.0),
                       child: Row(children: <Widget>[
                         Text(
                           'Welcome to',
                           style: TextStyle(color: Colors.white, fontSize: 40.0),
-                        ),
-                      ])),
-                  Padding(
+                          ),
+                          ]
+                          )
+                          ),
+                    Padding(
                       padding: const EdgeInsets.only(left: 55.0, top: 15.0),
                       child: Row(children: <Widget>[
                         Text(
-                          'Snake Charmer',
-                          style: TextStyle(color: Colors.white, fontSize: 40.0),
-                          ),
-                        ]
-                      )
-                    ),
-
-                  ]
-                ),
-                Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        border: Border.all(
-                          width: 1.0,
-                          color: Colors.white,
-                        )
-                    ),
-                    child: FlatButton(
-                        child: Text(
-                          'Let Me Begin!',
-                          style: TextStyle(color: Colors.white, fontSize: 20.0),
+                        'Snake Charmer',
+                        style: TextStyle(color: Colors.white, fontSize: 40.0),
                         ),
-                        onPressed: () {
-                          setLoggedIn();
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => MyHomePage()));
-                        }
+                        ]
+                        )
+                        ),
+                        ]
+                        ),
+              Align(
+                alignment: Alignment.bottomCenter,
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 75.0),
+                    child: Container(
+                        decoration: BoxDecoration(
+                        border: Border.all(
+                        width: 1.0,
+                        color: Colors.white,
+                      )
+                      ),
+                        child: FlatButton(
+                            child: Text(
+                            'Let Me Begin!',
+                            style: TextStyle(color: Colors.white, fontSize: 20.0),
+                          ),
+                            onPressed: () {
+                              setLoggedIn();
+                            Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                            builder: (context) => MyHomePage()));
+                            }
+                          ),
+                        ),
+                      ),
                     ),
-                  ),
-                ),
-              ],
-            )
-          ),
-        );
-
+                  ],
+                )
+              ),
+            );
   }
 }

@@ -50,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.black,
             )),
         backgroundColor: Colors.white,
+        automaticallyImplyLeading: false,
         actions: <Widget>[
           FlatButton(
             child: Text('Filters (' + activeFilters.toString() +')'),
