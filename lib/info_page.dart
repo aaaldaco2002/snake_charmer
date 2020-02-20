@@ -15,7 +15,6 @@ class _InfoPageState extends State<InfoPage> {
       ),
       body: Container(
         color: Colors.black,
-
         child: ListView(
               children: <Widget>[
                 SizedBox(
