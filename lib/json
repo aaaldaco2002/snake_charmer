@@ -1,0 +1,65 @@
+[
+  {
+    "Species": "Python",
+    "Image": [
+      {
+        "asset": "assets/Python.jpg"
+      }
+    ],
+    "Venom" : "nonvenomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.png"
+      }
+    ],
+    "Lethal": [
+      {
+        "asset": "assets/venom_negative_lethal.png"
+      }
+    ],
+    "Information": "Ball pythons attempt to avoid detection by predators and to seek cover. Defenses include camouflage, escape attempts, bluffing displays, and biting. Ball pythons are best known for “balling,” in which they form a tight ball with the head at the center. There are few known predators of adults, although the trappers of Ghana have reported that black cobras (Naja nigricollis) prey on small and medium pythons. Some known predators, especially of young pythons, include humans (Homo sapiens), carnivorous mammals, and birds of prey.-ADW",
+    "What to do if bitten": "The good news is that Ball Python bites are generally harmless and otherwise painless. It’s more panic-inducing than anything else. If the proper steps are taken, the worst that will happen is a few drops of blood and a band-aid."
+  },
+  {
+    "Species": "North Copperhead",
+    "Image": [
+      {
+        "asset": "assets/copperhead.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_postive.png"
+      }
+    ],
+    "Lethal": [
+      {
+        "asset": "assets/venom_negative_lethal.png"
+      }
+    ],
+    "Information":"On daily basis, copperheads are primarily active during daylight hours during the spring and fall. During the summer months, they become crepuscular or nocturnal to hunt during cooler evening hours. However, copperheads carefully select their resting habitats during daylight hours to ensure thermoregulation of preferred body temperatures of 23 to 31 degrees Celsius. Though they are most often found on the substrate surface, snakes have been observed up to 5 meters above-ground in shrubs and small trees to thermoregulate.-ADW",
+    "What to do if Bitten": "Do clean the wound, if possible, and look for fang marks,Do seek medical attention immediately,Don’t try to suck the venom out of the bite,Don’t put ice on the wound, or use a tourniquet"
+  },
+  {
+    "Species": "Cottonmouth",
+    "Image": [
+      {
+        "asset": "assets/Cottenmouth.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_postive.png"
+      }
+    ],
+    "Lethal": [
+      {
+        "asset": "assets/venom_negative_lethal.png"
+      }
+    ],
+    "Information": "Water moccasins are relatively large, often ranging from 2 to 4 feet (61 to 122 centimeters) long, according to the Savannah River Ecology Laboratory. They have large jowls, due to their venom glands, and \"cat-eye\" pupils. Water moccasins have dark stripes by each nostril and pale snouts, which can be helpful in identifying features. Water moccasins' large, triangular heads are distinct from their thinner necks, unlike many other snakes that have no distinctive neck, according to the Department of Wildlife Ecology and Conservation at the University of Florida.-Life Science",
+    "What to do if Bitten": "Water moccasins' venom is potent. Cottonmouth venom is composed mainly of hemotoxins that break down blood cells, preventing the blood from clotting or coagulating, Viernum said.The results can be serious or even deadly, though Viernum and other experts emphasize that fatalities are very rare. Viernum further described the effects of the bite, saying that the hemotoxins lead to hemorrhaging throughout the circulatory system wherever the venom has spread, she said.Envenomation from a cottonmouth can lead to temporary and/or permanent tissue and muscle damage; loss of an extremity, depending on the location of the bite; internal bleeding; and extreme pain around the injection area, Viernum added. Anyone suffering from a water-moccasin bite should seek medical attention immediately. Antivenin is available."
+  }
+]
