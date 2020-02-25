@@ -1,0 +1,17 @@
+[
+{
+  "Species": "Python",
+  "DangerRating": "Not Venomous,Not Lethal",
+  "Information": "Ball pythons attempt to avoid detection by predators and to seek cover. Defenses include camouflage, escape attempts, bluffing displays, and biting. Ball pythons are best known for “balling,” in which they form a tight ball with the head at the center. There are few known predators of adults, although the trappers of Ghana have reported that black cobras (Naja nigricollis) prey on small and medium pythons. Some known predators, especially of young pythons, include humans (Homo sapiens), carnivorous mammals, and birds of prey.-ADW"
+},
+{
+  "Species": "North Copperhead",
+  "DangerRating": "Venomous, Not Lethal",
+  "Information":"On daily basis, copperheads are primarily active during daylight hours during the spring and fall. During the summer months, they become crepuscular or nocturnal to hunt during cooler evening hours. However, copperheads carefully select their resting habitats during daylight hours to ensure thermoregulation of preferred body temperatures of 23 to 31 degrees Celsius. Though they are most often found on the substrate surface, snakes have been observed up to 5 meters above-ground in shrubs and small trees to thermoregulate.-ADW"
+},
+  {
+    "Species": "Cottonmouth",
+    "DangerRating": "Venomous, Not Lethal",
+    "Information": "On daily basis, copperheads are primarily active during daylight hours during the spring and fall. During the summer months, they become crepuscular or nocturnal to hunt during cooler evening hours. However, copperheads carefully select their resting habitats during daylight hours to ensure thermoregulation of preferred body temperatures of 23 to 31 degrees Celsius. Though they are most often found on the substrate surface, snakes have been observed up to 5 meters above-ground in shrubs and small trees to thermoregulate.-ADW"
+  }
+]
