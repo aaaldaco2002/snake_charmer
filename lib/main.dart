@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:snake_charmer/confirmation_screen.dart';
 import 'package:snake_charmer/home_page.dart';
 import 'package:snake_charmer/welcome_screen.dart';
 
@@ -46,7 +47,7 @@ class LoginCheck extends StatelessWidget {
       builder: (context, snapshot) {
 
         if (snapshot.data == true) {
-          return MyHomePage();
+          return CharmScreen();
         }
         else {
           return Welcome();

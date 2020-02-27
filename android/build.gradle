@@ -19,11 +19,6 @@ allprojects {
     }
 }
 
-aaptOptions {
-    noCompress 'tflite'
-    noCompress 'lite'
-}
-
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
