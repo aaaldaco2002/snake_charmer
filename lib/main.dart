@@ -47,7 +47,7 @@ class LoginCheck extends StatelessWidget {
       builder: (context, snapshot) {
 
         if (snapshot.data == true) {
-          return CharmScreen();
+          return MyHomePage();
         }
         else {
           return Welcome();

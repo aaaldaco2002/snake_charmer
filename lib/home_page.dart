@@ -23,6 +23,14 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+_openGallary(){
+
+}
+
+_openCamera(){
+
+}
+
 class _MyHomePageState extends State<MyHomePage> {
   int activeFilters = 0;
 
@@ -178,13 +186,15 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
-          onPressed: getImage,
-          //onTap: openCamera,
+          onPressed: () {
+            _openCamera();
+          },
         ),
         IconButton(
           icon: Icon(Icons.image),
-          onPressed: takeImage,
-          //onTap: openGallary,
+          onPressed: () {
+            _openGallary();
+          },
         )
       ],
     );

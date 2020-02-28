@@ -37,20 +37,32 @@ class _CharmScreenState extends State<CharmScreen> {
             ),
             Row(children: <Widget>[
               SizedBox(
-                width: 64.0,
+                width: 55.0,
               ),
-              Container(
-                color: Colors.grey,
-                height: 40.0,
-                width: 80.0,
+              FlatButton(
+                onPressed: null,
+                child: Text(
+                  'Yes',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24.0,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
               ),
               SizedBox(
                 width: 100.0,
               ),
-              Container(
-                color: Colors.grey,
-                height: 40.0,
-                width: 80.0,
+              FlatButton(
+                onPressed: null,
+                child: Text(
+                  'No',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24.0,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
               ),
               ],
             ),
