@@ -1,7 +1,12 @@
+import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CharmScreen extends StatefulWidget {
+  final File image;
+
+  CharmScreen(this.image);
+
   @override
   _CharmScreenState createState() => _CharmScreenState();
 }
@@ -31,6 +36,7 @@ class _CharmScreenState extends State<CharmScreen> {
               color: Colors.grey,
               width: 250.0,
               height: 250.0,
+              child: Image.file(widget.image),
             ),
             SizedBox(
               height: 100.0,

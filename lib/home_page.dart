@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:snake_charmer/confirmation_screen.dart';
 import 'package:snake_charmer/detail_view.dart';
 import 'package:snake_charmer/filter_home.dart';
 import 'package:snake_charmer/info_page.dart';
+import 'dart:io';
 
 class MyHomePage extends StatefulWidget {
   //widget is UI and layout and styling
@@ -23,6 +25,8 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+
+
 _openGallary(){
 
 }
@@ -34,8 +38,9 @@ _openCamera(){
 class _MyHomePageState extends State<MyHomePage> {
   int activeFilters = 0;
 
-  Future getImage() async {
-    var image = await ImagePicker.pickImage(source: ImageSource.camera);
+  Future<File> getImage() async {
+    File image = await ImagePicker.pickImage(source: ImageSource.camera);
+    return image;
   }
 
   Future takeImage() async {
@@ -192,8 +197,12 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         IconButton(
           icon: Icon(Icons.image),
-          onPressed: () {
-            _openGallary();
+          onPressed: () async {
+            File image = await getImage();
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => CharmScreen(image)));
           },
         )
       ],
