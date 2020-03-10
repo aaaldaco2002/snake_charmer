@@ -31,15 +31,15 @@ _openGallary(){
 
 }
 
-_openCamera(){
-
+_openCamera() async {
+  var image = await ImagePicker.pickImage(source: ImageSource.camera);
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   int activeFilters = 0;
 
   Future<File> getImage() async {
-    File image = await ImagePicker.pickImage(source: ImageSource.camera);
+    File image = await ImagePicker.pickImage(source: ImageSource.gallery);
     return image;
   }
 
@@ -191,7 +191,7 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
-          onPressed: () {
+          onPressed: () async {
             _openCamera();
           },
         ),
@@ -199,11 +199,13 @@ class _MyHomePageState extends State<MyHomePage> {
           icon: Icon(Icons.image),
           onPressed: () async {
             File image = await getImage();
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => CharmScreen(image)));
-          },
+            if(image != null) {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => CharmScreen(image)));
+            }
+            },
         )
       ],
     );
