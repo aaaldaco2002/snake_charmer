@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:snake_charmer/home_page.dart';
 
 class CharmScreen extends StatefulWidget {
   final File image;
@@ -60,7 +61,7 @@ class _CharmScreenState extends State<CharmScreen> {
                 width: 100.0,
               ),
               FlatButton(
-                onPressed: null,
+                onPressed: null, //take user back to the home screen
                 child: Text(
                   'No',
                   style: TextStyle(
