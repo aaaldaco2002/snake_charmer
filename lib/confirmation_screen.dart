@@ -19,24 +19,26 @@ class _CharmScreenState extends State<CharmScreen> {
       appBar: AppBar(
         title: Text('IS THIS THE CORRECT IMAGE?',
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
             )
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         automaticallyImplyLeading: false,
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,
         color: Colors.black,
-        child: Column(
+        child: (MediaQuery.of(context).orientation == Orientation.portrait)
+          ? Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
           SizedBox(
             height: 50.0,
           ),
             Container(
-              color: Colors.grey,
-              width: 250.0,
-              height: 250.0,
+              color: Colors.black,
+              width: 300.0,
+              height: 300.0,
               child: Image.file(widget.image),
             ),
             SizedBox(
@@ -74,6 +76,57 @@ class _CharmScreenState extends State<CharmScreen> {
                   textAlign: TextAlign.center,
                 ),
               ),
+              ],
+            ),
+          ],
+        )
+        : Row(
+          children: <Widget>[
+            SizedBox(
+              width: 175.0,
+            ),
+            Container(
+              color: Colors.black,
+              width: 300.0,
+              height: 300.0,
+              child: Image.file(widget.image),
+            ),
+            SizedBox(
+              width: 75.0,
+            ),
+            Column(
+              children: <Widget>[
+                SizedBox(
+                  height: 75.0,
+                ),
+                FlatButton(
+                  onPressed: null,
+                  child: Text(
+                    'Yes',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24.0,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                SizedBox(
+                  height: 75.0,
+                ),
+                FlatButton(
+                  onPressed: ()=> Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => MyHomePage())),
+                  child: Text(
+                    'No',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24.0,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
               ],
             ),
           ],
