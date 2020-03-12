@@ -25,14 +25,9 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-
-
-_openGallary(){
-
-}
-
 _openCamera() async {
   var image = await ImagePicker.pickImage(source: ImageSource.camera);
+  return image;
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -192,9 +187,15 @@ class _MyHomePageState extends State<MyHomePage> {
         IconButton(
           icon: Icon(Icons.camera_alt),
           onPressed: () async {
-            _openCamera();
-          },
-        ),
+            File image = await _openCamera();
+            if (image != null) {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => CharmScreen(image)));
+              }
+            }
+          ),
         IconButton(
           icon: Icon(Icons.image),
           onPressed: () async {

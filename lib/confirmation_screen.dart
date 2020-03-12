@@ -61,7 +61,10 @@ class _CharmScreenState extends State<CharmScreen> {
                 width: 100.0,
               ),
               FlatButton(
-                onPressed: null, //take user back to the home screen
+                onPressed: ()=> Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => MyHomePage())),
                 child: Text(
                   'No',
                   style: TextStyle(
