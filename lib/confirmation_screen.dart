@@ -114,10 +114,7 @@ class _CharmScreenState extends State<CharmScreen> {
                   height: 75.0,
                 ),
                 FlatButton(
-                  onPressed: ()=> Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => MyHomePage())),
+                  onPressed: ()=> Navigator.of(context).pop(),
                   child: Text(
                     'No',
                     style: TextStyle(
