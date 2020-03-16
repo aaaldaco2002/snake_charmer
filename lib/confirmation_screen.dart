@@ -15,7 +15,8 @@ class CharmScreen extends StatefulWidget {
 class _CharmScreenState extends State<CharmScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SafeArea(
+      child: Scaffold(
       appBar: AppBar(
         title: Text('IS THIS THE CORRECT IMAGE?',
             style: TextStyle(
@@ -44,10 +45,10 @@ class _CharmScreenState extends State<CharmScreen> {
             SizedBox(
               height: 100.0,
             ),
-            Row(children: <Widget>[
-              SizedBox(
-                width: 55.0,
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
               FlatButton(
                 onPressed: null,
                 child: Text(
@@ -126,8 +127,10 @@ class _CharmScreenState extends State<CharmScreen> {
                 ),
               ],
             ),
+
           ],
         ),
+      ),
       ),
     );
   }
