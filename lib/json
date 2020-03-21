@@ -211,6 +211,78 @@
       }
     ],
     "Lethal": "Non-Lethal",
+    "Information": "Coachwhips are found throughout the southern United States from southeastern North Carolina to central California. In our region they are present in all but the mountainous areas of northern Georgia and northwestern South Carolina. Coachwhips are found throughout the Coastal Plain but are uncommon and patchily distributed in the Piedmont. They are particularly abundant in sandhills and coastal areas, including barrier islands",
+    "What to do if Bitten": ". A coachwhip bite can cause a bit of pain, but as long as the wound is kept clean the person usually recovers from a coachwhip bite with no serious long-term problems.",
+    "Link" : "http://www.snake-removal.com/coachwhipsnake.html"
+  },
+  {
+    "Species": "California Striped Whipsnake",
+    "Image": [
+      {
+        "asset": "assets/Whipsnake.jfif"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "A very fast-moving alert diurnal snake with good vision that is difficult to approach.Often crawls away very quickly when frightened, but when cornered will strike fiercely.Forages with the head elevated off the ground using vision more than scent to find prey.",
+    "What to do if Bitten": "",
+    "Link" : "https://en.wikipedia.org/wiki/California_whipsnake"
+  },
+  {
+    "Species": "Banded Water Snake",
+    "Image": [
+      {
+        "asset": "assets/Banwater.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Adults average from 24-42 inches (61-106.7 cm). The record is 60 inches (152.4 cm). Stout bodied snake with black, brown, or red crossbands (often bordered with black) across back. Crossbands may be obscured as snake darkens with age. Background color may be gray, yellow, tan, or reddish. Belly is light with squarish spots. Scales are keeled and there are 21-25 dorsal scale rows at midbody. The pupil is round. A dark stripe extends from the eye to the angle of the jaw. Juveniles have very clear crossbands (usually black) on pale background.",
+    "What to do if Bitten": "The best way to get rid of Banded Water Snakes is to simply leave them alone. You can also use a Banded Water Snake trap to catch them - that's one of the best ways for how to remove Banded Water Snake.",
+    "Link" : "http://www.snake-removal.com/bandedwatersnake.html"
+  },
+  {
+    "Species": "Western Leaf-nosed Snake",
+    "Image": [
+      {
+        "asset": "assets/LeafN.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": ": It is a nocturnal ground dweller. It uses its enlarged rostral scale for burrowing and spends the majority of its time under the soil. It hibernates during the cold months of late fall and winter. It is commonly encountered on the surface at night in June.",
+    "What to do if Bitten": "This snake has an enlarged scale on its snout that looks similar to that of a patch-nosed snake, except that the scale has free edges. It is named for both its nose scale as well as the dark brown blotches or saddles on its back. It is found in areas of mixed desert scrub and uses its snout to burrow in search of lizards and their eggs.",
+    "Link" : "http://www.californiaherps.com/snakes/pages/p.decurtatus.html"
+  },
+  {
+    "Species": "Gopher Snake",
+    "Image": [
+      {
+        "asset": "assets/Gopher.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "",
     "Information": "",
     "What to do if Bitten": "",
     "Link" :
