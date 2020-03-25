@@ -17,7 +17,8 @@ class _WelcomeState extends State<Welcome> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SafeArea(
+    child: Scaffold(
         body: Container(
             width: MediaQuery
                 .of(context)
@@ -26,59 +27,63 @@ class _WelcomeState extends State<Welcome> {
             color: Colors.black,
             child: Stack(
                 children: <Widget>[
-                Column(children: <Widget>[
-                  Padding(
-                    padding: const EdgeInsets.only(left: 85.0, top: 75.0),
-                      child: Row(children: <Widget>[
+                Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: <Widget>[
+                   Row(
+                       crossAxisAlignment: CrossAxisAlignment.center,
+                       mainAxisAlignment: MainAxisAlignment.center,
+                       children: <Widget>[
                         Text(
                           'Welcome to',
                           style: TextStyle(color: Colors.white, fontSize: 40.0),
                           ),
                           ]
                           )
+                          ]
                           ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 55.0, top: 15.0),
-                      child: Row(children: <Widget>[
+                    Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Padding(
+                            padding: const EdgeInsets.only (top: 130.0),
+                          ),
                         Text(
                         'Snake Charmer',
                         style: TextStyle(color: Colors.white, fontSize: 40.0),
                         ),
                         ]
-                        )
                         ),
-                        ]
-                        ),
-              Align(
-                alignment: Alignment.bottomCenter,
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 75.0),
-                    child: Container(
-                        decoration: BoxDecoration(
-                        border: Border.all(
-                        width: 1.0,
+                Row(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        width: 3.0,
                         color: Colors.white,
                       )
+                    ),
+                   child: FlatButton(
+                      child: Text(
+                        'Let me Begin!',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 24.0,
+                          ),
+                          textAlign: TextAlign.center,
                       ),
-                        child: FlatButton(
-                            child: Text(
-                            'Let Me Begin!',
-                            style: TextStyle(color: Colors.white, fontSize: 20.0),
-                          ),
-                            onPressed: () {
-                              setLoggedIn();
-                            Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                            builder: (context) => MyHomePage()));
-                            }
-                          ),
+                          onPressed: ()=> Navigator.push(
+                              context,
+                                MaterialPageRoute(
+                                builder: (context) => MyHomePage())),
+                    ),
+,
+                )]               ),
+                        ]
                         ),
                       ),
                     ),
-                  ],
-                )
-              ),
-            );
+                  );
   }
 }
