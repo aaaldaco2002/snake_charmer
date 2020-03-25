@@ -1,7 +1,7 @@
 [
 {
   "Species": "Python",
-  "DangerRating": "Not Venomous,Not Lethal",
+  "DangerRating": "Non-Venomous,Not Lethal",
   "Information": "Ball pythons attempt to avoid detection by predators and to seek cover. Defenses include camouflage, escape attempts, bluffing displays, and biting. Ball pythons are best known for “balling,” in which they form a tight ball with the head at the center. There are few known predators of adults, although the trappers of Ghana have reported that black cobras (Naja nigricollis) prey on small and medium pythons. Some known predators, especially of young pythons, include humans (Homo sapiens), carnivorous mammals, and birds of prey.-ADW"
 },
 {
@@ -13,5 +13,21 @@
     "Species": "Cottonmouth",
     "DangerRating": "Venomous, Not Lethal",
     "Information": "On daily basis, copperheads are primarily active during daylight hours during the spring and fall. During the summer months, they become crepuscular or nocturnal to hunt during cooler evening hours. However, copperheads carefully select their resting habitats during daylight hours to ensure thermoregulation of preferred body temperatures of 23 to 31 degrees Celsius. Though they are most often found on the substrate surface, snakes have been observed up to 5 meters above-ground in shrubs and small trees to thermoregulate.-ADW"
+  },
+  {
+    "Species": "Cobras",
+    "DangerRating" : "Venomous",
+    "Information" : "“The most distinctive behavioral characteristics of cobras are their defensive displays,” said Viernum. “These include hooding, hissing, and raising the upper portion of their bodies to stand erect.  Most cobras can stand as tall as a third of their body length.” In addition to signaling a willingness to attack, this behavior helps them search for food. Cobras may hiss loudly at predators and other threats, and some species also spit. “Spitting cobras are able to project venom from their fangs towards their perceived predators,” said Viernum."
+  },
+  {
+    "Species": "Northern Rubber Boa",
+    "DangerRating" : "Non-Venomous, Lethal",
+    "Information" : "A small constrictor with a stout body and a thick tail with a blunt end (that looks a bit like a head), and smooth shiny small-scaled loose and wrinkled skin, which gives the snake a rubbery look and feel.Eyes are small with vertically elliptical pupils.The top of the head is covered with large scales."
+  },
+  {
+    "Species": "Southern Rubber Boa",
+    "DangerRating" : "Non-Venomous, Lethal",
+    "Information" : ""
+
   }
 ]

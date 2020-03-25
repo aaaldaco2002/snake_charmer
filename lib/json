@@ -1,65 +1,290 @@
 [
   {
-    "Species": "Python",
+    "Species": "Northern Rubber Boa",
     "Image": [
       {
-        "asset": "assets/Python.jpg"
+        "asset": "assets/northern-rubber-boa-1100x55.jpg"
       }
     ],
-    "Venom" : "nonvenomous",
+    "Venom": "Non-Venomous",
     "VenomSymbol": [
       {
-        "asset": "assets/venom_negative.png"
+        "asset": "assets/venom_negative.jpg"
       }
     ],
-    "Lethal": [
-      {
-        "asset": "assets/venom_negative_lethal.png"
-      }
-    ],
-    "Information": "Ball pythons attempt to avoid detection by predators and to seek cover. Defenses include camouflage, escape attempts, bluffing displays, and biting. Ball pythons are best known for “balling,” in which they form a tight ball with the head at the center. There are few known predators of adults, although the trappers of Ghana have reported that black cobras (Naja nigricollis) prey on small and medium pythons. Some known predators, especially of young pythons, include humans (Homo sapiens), carnivorous mammals, and birds of prey.-ADW",
-    "What to do if bitten": "The good news is that Ball Python bites are generally harmless and otherwise painless. It’s more panic-inducing than anything else. If the proper steps are taken, the worst that will happen is a few drops of blood and a band-aid."
+    "Lethal":"NonLethal",
+    "Information": "This snake looks and feels like rubber, hence its name. It is a small, shiny, stout snake (12 to 28 inches) with very small eyes and a blunt tail. The scales are small and smooth, except for those on the head, which are enlarged. Dorsum of adult is plain brown to olive green, venter is cream to yellow, sometimes with dark flecks or brown, orange, or black mottling; young are pinkish to tan above, light yellow to pink below. Top of head is covered with large symmetrical plates; pupil is vertically oval. Males and some females have a spur on each side in the anal region. Total length of adults usually is 35 to 83 cm (Stebbins 1985).",
+    "What to do if Bitten": "Rubber boas are known to never strike at or bite a human under any circumstances but will release a potent musk from their vent if they feel threatened.",
+    "Link": "https://en.wikipedia.org/wiki/Rubber_boa#Behavior"
   },
   {
-    "Species": "North Copperhead",
+    "Species": "Coastal Rosy Boa",
     "Image": [
       {
-        "asset": "assets/copperhead.jpg"
+        "asset": "assets/SouthRuberBoa.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Not Lethal",
+    "Information": "A small snake, the rosy boa normally attains a total length (including tail) of 17–34 in (43–86 cm), although some coastal specimens from California reach 36–44 in (91–112 cm). A large adult has a body width about the diameter of a golf ball. Coloration of the rosy boa is highly variable, and usually locale-specific. The common name is derived from the rosy or salmon coloration that is common on the belly of specimens of the rosy boa originating from coastal southern California and Baja Mexico. Most rosy boa specimens do not have this ventral coloration, but instead have a series of dark to orange spots on a light-colored background. Almost all specimens of the rosy boa have at least some trace of three longitudinal stripes, one down the center of the back, and two on the lower sides. The appearance of these stripes varies widely, from extremely straight and having high contrast with the interspaces, to extremely broken with almost no contrast with the interspaces. Stripe colors can be orange, maroon, rust, brown, or black. Interspace colors can be shades of light to dark gray, yellow, or tan.",
+    "What to do if Bitten": "The species is not prone to bite in defense, but rather will release a foul-smelling musk from the base of the tail when threatened. When human bites have occurred, they have usually been the result of a feeding response with a captive animal. The rosy boa is nonvenomous. Its extreme docility, few needs, and attractive coloration have made the rosy boa popular with herpetoculturists.",
+    "Link": "https://en.wikipedia.org/wiki/Rosy_boa"
+  },
+  {
+    "Species": "Glossy Snake",
+    "Image": [
+      {
+        "asset": "assets/GlossySnake.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Not Lethal",
+    "Information": "The glossy snake and its many subspecies are all similar in appearance to gopher snakes. However, they are smaller than gopher snakes, with narrow, pointed heads, and a variety of skin patterns and colors. They appear washed-out or pale, hence the common name, faded snakes",
+    "What to do if Bitten": "Some will strike and bite (particularly males), but most Glossy Snakes are quite gentle.",
+    "Link" : "https://tucsonherpsociety.org/amphibians-reptiles/snakes/glossy-snake/"
+  },
+  {
+    "Species": "Western Shovelnose Snake",
+    "Image": [
+      {
+        "asset": "assets/Shovelnose.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Not Lethal",
+    "Information": "A small (up to 369 mm or 15\" in total length) snake with more than 20 dark brown to black bands on a cream to light yellow background. Some subspecies have secondary orange saddles between the black bands (see subspecies descriptions below). The orange saddles are separated from the black by a margin of cream to light yellow background color. The posterior black bands usually completely encircle the body but the anterior bands do not. The snout is cream or light yellow. A black mask crosses the top of the head and covers the eyes. The underside is cream. With its countersunk jaw, valves in the nasal passages, concaved belly, and relatively flat snout, this snake is well equipped for burrowing under fine sand and loose gravel. The pupils are round and the scales are smooth and shiny. The Western Shovel-nosed Snake's light snout distinguishes it from the similar looking Sonoran Coralsnake which has a black snout. The similar Sonoran Shovel-nosed Snake has fewer than 21 black body bands.",
+    "What to do if Bitten": "In a subsequent encounter, short bouts (less than 30 seconds) of biting and entwining occurred. One male was also observed to vibrate its tail when the other approached.",
+    "Link": "https://www.desertmuseum.org/books/nhsd_shovelnose_snake.php"
+  },
+  {
+    "Species": "Eastern Racer",
+    "Image": [
+      {
+        "asset": "assets/EasternRacer.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Not Lethal",
+    "Information": "The eastern racers are fast-moving, highly active, diurnal snakes. Their diet consists primarily of small rodents, frogs, toads, lizards, and other snakes.[7] Some subspecies are known to climb trees to eat eggs and young birds. Juveniles often consume soft-bodied insects, such as crickets and moths[citation needed]. Despite their specific name, constrictor, they do not really employ constriction, instead simply subduing struggling prey by pinning it bodily, pressing one or two coils against it to hold it in place instead of actually suffocating it. Most smaller prey items are simply swallowed alive.",
+    "What to do if Bitten": "Both adults and juveniles are nervous, active snakes and usually bite immediately when handled. The bite is harmless. ",
+    "Link" : "https://en.wikipedia.org/wiki/Eastern_racer"
+  },
+  {
+    "Species": "Forest Sharp-Tailed Snake",
+    "Image": [
+      {
+        "asset": "assets/ForestSharp.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "The sharp-tailed snake is a shy, secretive creature most often encountered under rocks and logs, and rarely to never found in the open.[8] It is able to persist in urban areas where appropriate cover can be found. It is known to burrow into soft soil or cracks in the clay, and may be encountered by people who are digging in the garden or removing concrete. When encountered, the sharp-tailed snake may roll into a ball and remain still. It can be mistaken for a worm by the casual observer.",
+    "What to do if Bitten": "Sharp-tailed Snakes are harmless. They have no venom, and will not bite even if disturbed. Unlike Garter Snakes, Sharpies will not try to get escape when found, but instead typically coil up and remain motionless.",
+    "Link": "https://en.wikipedia.org/wiki/Forest_sharp-tailed_snake"
+  },
+  {
+    "Species": "Ringneck Snake",
+    "Image": [
+      {
+        "asset": "assets/Ring.jpg"
       }
     ],
     "Venom": "Venomous",
     "VenomSymbol": [
       {
-        "asset": "assets/venom_postive.png"
+        "asset": "assets/venom_postive.jpg"
       }
     ],
-    "Lethal": [
-      {
-        "asset": "assets/venom_negative_lethal.png"
-      }
-    ],
-    "Information":"On daily basis, copperheads are primarily active during daylight hours during the spring and fall. During the summer months, they become crepuscular or nocturnal to hunt during cooler evening hours. However, copperheads carefully select their resting habitats during daylight hours to ensure thermoregulation of preferred body temperatures of 23 to 31 degrees Celsius. Though they are most often found on the substrate surface, snakes have been observed up to 5 meters above-ground in shrubs and small trees to thermoregulate.-ADW",
-    "What to do if Bitten": "Do clean the wound, if possible, and look for fang marks,Do seek medical attention immediately,Don’t try to suck the venom out of the bite,Don’t put ice on the wound, or use a tourniquet"
+    "Lethal": "Non-Lethal",
+    "Information": "Diadophis punctatus, commonly known as the ring-necked snake or ringneck snake, is a harmless species of colubrid snake found throughout much of the United States, central Mexico, and southeastern Canada. Ring-necked snakes are secretive, nocturnal snakes, so are rarely seen during the day time. They are slightly venomous, but their nonaggressive nature and small, rear-facing fangs pose little threat to humans who wish to handle them. They are best known for their unique defense posture of curling up their tails, exposing their bright red-orange posterior, ventral surface when threatened.",
+    "What to do if Bitten": " If you’re ever bitten by a ring-necked snake, make sure to get it checked out by a doctor. Ring-necked snakes are not venomous, but with any wild animal bite there’s a risk of infection.",
+    "Link": "https://www.animalcontrolsolutions.com/animals/ring-neck-snake-control.html"
   },
   {
-    "Species": "Cottonmouth",
+    "Species": "Desert Nightsnake",
     "Image": [
       {
-        "asset": "assets/Cottenmouth.jpg"
+        "asset": "assets/DesertNight.jpg"
       }
     ],
     "Venom": "Venomous",
     "VenomSymbol": [
       {
-        "asset": "assets/venom_postive.png"
+        "asset": "assets/venom_postive.jpg"
       }
     ],
-    "Lethal": [
+    "Lethal": "Non-Lethal",
+    "Information": "It is mildly venomous but rarely bites when captured and its venom is not considered to be dangerous to humans. DIET: The Desert Nightsnake uses mild venom injected by enlarged teeth in the rear upper jaw to subdue lizards and small snakes.",
+    "What to do if Bitten": "These snakes virtually never bite when handled and are probably too small to deliver a venomous bite to humans. When harassed or threatened, a Desert Nightsnake will sometimes pull itself into a very tight coil with its head in the center. Under the cirumstance of being bitten one should seek a doctor",
+    "Link": "https://tucsonherpsociety.org/amphibians-reptiles/snakes/desert-nightsnake/"
+  },
+  {
+    "Species": "Coast Night Snake",
+    "Image": [
       {
-        "asset": "assets/venom_negative_lethal.png"
+        "asset": "assets/Costal.jpg"
       }
     ],
-    "Information": "Water moccasins are relatively large, often ranging from 2 to 4 feet (61 to 122 centimeters) long, according to the Savannah River Ecology Laboratory. They have large jowls, due to their venom glands, and \"cat-eye\" pupils. Water moccasins have dark stripes by each nostril and pale snouts, which can be helpful in identifying features. Water moccasins' large, triangular heads are distinct from their thinner necks, unlike many other snakes that have no distinctive neck, according to the Department of Wildlife Ecology and Conservation at the University of Florida.-Life Science",
-    "What to do if Bitten": "Water moccasins' venom is potent. Cottonmouth venom is composed mainly of hemotoxins that break down blood cells, preventing the blood from clotting or coagulating, Viernum said.The results can be serious or even deadly, though Viernum and other experts emphasize that fatalities are very rare. Viernum further described the effects of the bite, saying that the hemotoxins lead to hemorrhaging throughout the circulatory system wherever the venom has spread, she said.Envenomation from a cottonmouth can lead to temporary and/or permanent tissue and muscle damage; loss of an extremity, depending on the location of the bite; internal bleeding; and extreme pain around the injection area, Viernum added. Anyone suffering from a water-moccasin bite should seek medical attention immediately. Antivenin is available."
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "The California night snake grows to a total length of 12 to 26 inches (30 to 66 cm), with hatchlings about 7 inches in total length.The snake has a narrow flat head, smooth dorsal scales in 19 rows, and eyes with vertically elliptical pupils. They are rear-fanged and considered to be venomous, but not dangerous to humans.",
+    "What to do if Bitten": "",
+    "Link": "https://en.wikipedia.org/wiki/California_night_snake"
+  },
+  {
+    "Species": "California Kingsnake",
+    "Image": [
+      {
+        "asset": "assets/CaliKing.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "There is a rhyme to help you tell a deadly coral snake from its nonvenomous look-alike: “Red on yellow, kill a fellow; red on black, venom lack.” ",
+    "What to do if Bitten": "They are also known to bite, though their bite is not poisonous to humans.Savitzky said that some species of kingsnake are bitier and snappier than others, but that it mostly comes down to the individual temperament of the snake.",
+    "Link" : "https://animals.sandiegozoo.org/animals/kingsnake"
+  },
+  {
+    "Species": "California Mountain kingsnake",
+    "Image": [
+      {
+        "asset": "assets/MouKing.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Secretive, but not rare in suitable habitat.Spends most of the time underground, under surface objects, or inside rock crevices.",
+    "What to do if Bitten": "There is a rhyme to help you tell a deadly coral snake from its nonvenomous look-alike: “Red on yellow, kill a fellow; red on black, venom lack.”",
+    "Link" : "http://www.californiaherps.com/snakes/pages/l.zonata.html"
+  },
+  {
+    "Species": "Coachwhip",
+    "Image": [
+      {
+        "asset": "assets/Coach.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Coachwhips are found throughout the southern United States from southeastern North Carolina to central California. In our region they are present in all but the mountainous areas of northern Georgia and northwestern South Carolina. Coachwhips are found throughout the Coastal Plain but are uncommon and patchily distributed in the Piedmont. They are particularly abundant in sandhills and coastal areas, including barrier islands",
+    "What to do if Bitten": ". A coachwhip bite can cause a bit of pain, but as long as the wound is kept clean the person usually recovers from a coachwhip bite with no serious long-term problems.",
+    "Link" : "http://www.snake-removal.com/coachwhipsnake.html"
+  },
+  {
+    "Species": "California Striped Whipsnake",
+    "Image": [
+      {
+        "asset": "assets/Whipsnake.jfif"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "A very fast-moving alert diurnal snake with good vision that is difficult to approach.Often crawls away very quickly when frightened, but when cornered will strike fiercely.Forages with the head elevated off the ground using vision more than scent to find prey.",
+    "What to do if Bitten": "",
+    "Link" : "https://en.wikipedia.org/wiki/California_whipsnake"
+  },
+  {
+    "Species": "Banded Water Snake",
+    "Image": [
+      {
+        "asset": "assets/Banwater.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Adults average from 24-42 inches (61-106.7 cm). The record is 60 inches (152.4 cm). Stout bodied snake with black, brown, or red crossbands (often bordered with black) across back. Crossbands may be obscured as snake darkens with age. Background color may be gray, yellow, tan, or reddish. Belly is light with squarish spots. Scales are keeled and there are 21-25 dorsal scale rows at midbody. The pupil is round. A dark stripe extends from the eye to the angle of the jaw. Juveniles have very clear crossbands (usually black) on pale background.",
+    "What to do if Bitten": "The best way to get rid of Banded Water Snakes is to simply leave them alone. You can also use a Banded Water Snake trap to catch them - that's one of the best ways for how to remove Banded Water Snake.",
+    "Link" : "http://www.snake-removal.com/bandedwatersnake.html"
+  },
+  {
+    "Species": "Western Leaf-nosed Snake",
+    "Image": [
+      {
+        "asset": "assets/LeafN.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": ": It is a nocturnal ground dweller. It uses its enlarged rostral scale for burrowing and spends the majority of its time under the soil. It hibernates during the cold months of late fall and winter. It is commonly encountered on the surface at night in June.",
+    "What to do if Bitten": "This snake has an enlarged scale on its snout that looks similar to that of a patch-nosed snake, except that the scale has free edges. It is named for both its nose scale as well as the dark brown blotches or saddles on its back. It is found in areas of mixed desert scrub and uses its snout to burrow in search of lizards and their eggs.",
+    "Link" : "http://www.californiaherps.com/snakes/pages/p.decurtatus.html"
+  },
+  {
+    "Species": "Gopher Snake",
+    "Image": [
+      {
+        "asset": "assets/Gopher.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "",
+    "Information": "",
+    "What to do if Bitten": "",
+    "Link" :
   }
 ]

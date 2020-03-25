@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:snake_charmer/json';
 
 class Snake_Detail_View {
   String species;
