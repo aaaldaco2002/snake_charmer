@@ -450,21 +450,129 @@
     "Link" : "https://en.wikipedia.org/wiki/Indotyphlops_braminus"
   },
   {
-    "Species": "",
+    "Species": "Western Rattlesnake",
     "Image": [
       {
-        "asset": "assets/.jpg"
+        "asset": "assets/WestRat.jpg"
       }
     ],
     "Venom": "Venomous",
     "VenomSymbol": [
       {
-        "asset": "assets/venom_negative.jpg"
+        "asset": "assets/venom_positive.jpg"
       }
     ],
     "Lethal": "Lethal",
-    "Information": "",
-    "What to do if Bitten": "",
-    "Link" : ""
+    "Information": "Rattlesnakes are large, venomous snakes that are found throughout North and South America. The greatest concentration of them is in the Southwestern United States",
+    "What to do if Bitten": "The first and most important thing to do is get away from the snake, as they can strike again if they feel threatened. Don’t waste time trying to catch the snake, but try to remember its size and color. This may help your medical team identify which species it was that bit you and locate the correct antivenin.Seek medical assistance as soon as possible. Call for an ambulance if you’re able to.There are some common misconceptions about the treatment of rattlesnake bites. While waiting for the ambulance, here’s how to minimize your risk:Don’t raise the area above the level of the heart. If you do this, your blood containing rattlesnake venom will reach your heart more quickly.Stay as still as possible, as movement will increase your blood flow and the venom will circulate faster.Remove any tight clothing or jewelry before you start to swell.Let the wound bleed, as this may allow some of the venom to be released.Don’t wash the wound, as your medical team may be able to use some of the venom from your skin to more quickly identify the correct antivenin.Place a clean bandage on the wound.Try to remain calm, as anxiety and panic can increase your heart rate, which will cause the venom to spread.If you begin to experience signs of shock, try to lie down on your back, raise your feet slightly, and keep warm.Don’t cut the wound, as this doesn’t help and you could cause an infection.Don’t try to suck the venom from the wound, as you then introduce the venom to your mouth as well as introduce the bacteria from your mouth to the wound.Don’t use a tourniquet or apply ice or water.",
+    "Link" : "https://www.livescience.com/43683-rattlesnake.html"
+  },
+  {
+    "Species": "red diamond rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/REdDi.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "Crotalus ruber is a venomous pit viper species found in southwestern California in the United States and Baja California in Mexico. ",
+    "What to do if Bitten": "All snake bites should be considered as medical emergencies and evaluated by trained medical professionals, as soon as possible; the first 6-8 hours are particularly vital for preventing life-threatening symptoms. Failure to obtain early assessment and management from the highest level of care (available within the community) may potentially result in severe complications and death.",
+    "Link" : "https://www.dovemed.com/diseases-conditions/red-diamond-rattlesnake-bite/"
+  },
+  {
+    "Species": "Sidewinder",
+    "Image": [
+      {
+        "asset": "assets/SideW.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "A small species, adult specimens measure between 43 and 76 cm (17 and 30 in) in length. Most adults are 50–80 cm (19.5–31.5 in) in length.The females are larger than the males, which is unusual for this group of snakes.",
+    "What to do if Bitten": "While waiting for medical help: Move the person beyond striking distance of the snake. Have the person lie down with wound below the heart. Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. Cover the wound with loose, sterile bandage. Remove any jewelry from the area that was bitten. Remove shoes if the leg or foot was bitten. Do not: Cut a bite wound  Attempt to suck out venom Apply tourniquet, ice, or water Give the person alcohol or caffeinated drinks or any other medications",
+    "Link" : "https://www.webmd.com/first-aid/snakebite-treatment"
+  },
+  {
+    "Species": "Southwestern Speckled Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/spec.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The Southwestern Speckled Rattlesnake (Crotalus pyrrhus) is a pit viper of moderate size (< 1370 mm, but most are <1000 mm total length (TL)). As with other Crotalus, it has vertically elliptical pupils, a heat-sensing pit between the eye and nostril on each side, and prominent rattles on the tail. The Speckled Rattlesnake is highly variable in dorsal background color, including gray, blue-gray, tan, yellowish-pink, orange, and cream. Background color often, but not always, resembles the color of the rocks in the snake’s habitat. From 23 to 46 dark crossbands, which often narrow laterally and may form blotches anteriorly, overlay the background color on the body. Another 3-9 dark crossbands are found on the tail. Crossbands are vague in some specimens and regions, and each crossband is often split by a lighter, central area. Dorsal scales are keeled, in 21-27 rows at mid-body, and speckled. The rostral scale is separated from the anterior nasal scales by one or more small scales. The upper preocular scales are divided. Commonly there are two loreals per side, but that number varies from none to five. The anal plate is undivided (Lemm 2006, Ernst and Ernst 2012, Meik 2016).",
+    "What to do if Bitten": "Bite symptoms in humans include significant edema, discoloration around the bite, and pain. However, recovery is usually complete and uneventful after treatment with antivenin",
+    "Link" : "https://www.webmd.com/first-aid/snakebite-treatment"
+  },
+  {
+    "Species": "Mojave Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/Moj.png"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The color varies from shades of brown to pale green depending on the surroundings. The green hue found among Mojave rattlesnakes has led to them being known as Mojave greens in some areas. Like C. atrox (the western diamondback rattlesnake), which it closely resembles, C. scutulatus has a dark diamond pattern along its back. With C. scutulatus, the white bands on the tail tend to be wider than the black, while the band width is usually more equal in C. atrox. Additionally, C. scutulatus has enlarged scales on top of the head between the supraoculars, and the light postocular stripe passes behind the corner of the mouth. In C. atrox, the crown is covered in small scales, and the light postocular stripe intersects the mouth.",
+    "What to do if Bitten": "needed to get to the ER right away.",
+    "Link" : "https://www.tripsavvy.com/about-rattlesnake-bites-2677343"
+  },
+  {
+    "Species": "panamint rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/Pan.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "A long, heavy-bodied snake with a thin neck, a large triangular head, and a rattle on the end of the tail consisting of loose interlocking hollow segments.  A new rattle segment is added each time the skin is shed, which can be more than one time per year.",
+    "What to do if Bitten": "All snake bites should be considered as medical emergencies and evaluated by trained medical professionals, as soon as possible; the first 6-8 hours are particularly vital for preventing life-threatening symptoms. Failure to obtain early assessment and management from the highest level of care (available within the community) may potentially result in severe complications and death.",
+    "Link" : "https://www.dovemed.com/diseases-conditions/panamint-rattlesnake-bite/"
+  },
+  {
+    "Species": "Western Diamondback Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/WDB.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The western diamondback rattlesnake or Texas diamond-back is a venomous rattlesnake species found in the southwestern United States and Mexico. It is likely responsible for the majority of snakebite fatalities in northern Mexico and the greatest number of snakebites in the U.S. No subspecies are currently recognized.",
+    "What to do if Bitten": "While waiting for help to arrive, the American Red Cross advises to wash the wound and then apply a bandage to slow the spread of venom. The following steps should be taken when doing this:Check for feeling, warmth, and color of the limb and note any changes in skin color and temperature.Place the end of the bandage against the skin and wrap, using overlapping turns. Start at the point farthest from the heart and cover a long body section, such as an arm or calf. To wrap a joint, use figure of eight turns to support it.Check above and below the bite for feeling, warmth, and color, particularly in the fingers and toes.Check the tightness of the bandage so a finger can still pass easily but not loosely underneath it.Keep the injured area still and make sure it is lower than the heart. The person who has been bitten should only walk if absolutely necessary. Carry them to safety if possible.",
+    "Link" : "https://www.desertmuseum.org/kids/oz/long-fact-sheets/Diamondback%20Rattlesnake.php"
   }
 ]

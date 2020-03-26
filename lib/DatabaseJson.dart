@@ -1,22 +1,74 @@
-import 'package:snake_charmer/Database.json';
-class Snake_Preview {
+class Snake {
   String species;
-  String dangerRating;
+  List<Image> image;
+  String venom;
+  List<VenomSymbol> venomSymbol;
+  String lethal;
   String information;
+  String whatToDoIfBitten;
+  String link;
 
-  Snake_Preview({this.species, this.dangerRating, this.information});
+  Snake(
+      {this.species,
+        this.image,
+        this.venom,
+        this.venomSymbol,
+        this.lethal,
+        this.information,
+        this.whatToDoIfBitten,
+        this.link});
 
-  Snake_Preview.fromJson(Map<String, dynamic> json) {
+  Snake.fromJson(Map<String, dynamic> json) {
     species = json['Species'];
-    dangerRating = json['DangerRating'];
+    if (json['Image'] != null) {
+      image = new List<Image>();
+      json['Image'].forEach((v) {
+        image.add(new Image.fromJson(v));
+      });
+    }
+    venom = json['Venom'];
+    if (json['VenomSymbol'] != null) {
+      venomSymbol = new List<VenomSymbol>();
+      json['VenomSymbol'].forEach((v) {
+        venomSymbol.add(new VenomSymbol.fromJson(v));
+      });
+    }
+    lethal = json['Lethal'];
     information = json['Information'];
+    whatToDoIfBitten = json['What to do if Bitten'];
+    link = json['Link'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['Species'] = this.species;
-    data['DangerRating'] = this.dangerRating;
+    if (this.image != null) {
+      data['Image'] = this.image.map((v) => v.toJson()).toList();
+    }
+    data['Venom'] = this.venom;
+    if (this.venomSymbol != null) {
+      data['VenomSymbol'] = this.venomSymbol.map((v) => v.toJson()).toList();
+    }
+    data['Lethal'] = this.lethal;
     data['Information'] = this.information;
+    data['What to do if Bitten'] = this.whatToDoIfBitten;
+    data['Link'] = this.link;
+    return data;
+  }
+}
+
+class Image {
+  String asset;
+
+  Image({this.asset});
+
+  Image.fromJson(Map<String, dynamic> json) {
+    asset = json['asset'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['asset'] = this.asset;
     return data;
   }
 }
