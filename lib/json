@@ -282,9 +282,297 @@
         "asset": "assets/venom_negative.jpg"
       }
     ],
-    "Lethal": "",
-    "Information": "",
+    "Lethal": "Nonlethal",
+    "Information": "Pacific gopher snake adults range in size from 3–7 feet (91–213 cm) in total length. However, most of the subspecies reach a length of 4–5 feet (122–152 cm). The hatchlings are relatively long, and they have been recorded at lengths upward of 20 inches (51 cm)",
+    "What to do if Bitten": "Gopher snakes will only issue a non-venomous bite to humans when scared. They have small teeth (no fangs), and kill their prey by constriction. When threatened, they may hiss loudly and “feign strike” . If a gopher snake were to bite you, just clean and sterilize the wound.",
+    "Link" : "https://www.livescience.com/53484-gopher-snake.html"
+  },
+  {
+    "Species": "Western Patch-nosed Snake",
+    "Image": [
+      {
+        "asset": "assets/Patch.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "A fast, moderately-sized slender striped snake with smooth scales, large eyes, and a large scale over the tip of the snout.There are 9 upper labial scales, one usually reaches the eye.",
+    "What to do if Bitten": "If the snake were to bite you, just clean and sterilize the wound, and see a doctor.",
+    "Link" : "http://www.californiaherps.com/snakes/pages/s.h.hexalepis.html"
+  },
+  {
+    "Species": "Western Ground Snake",
+    "Image": [
+      {
+        "asset": "assets/ground.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "Western Ground Snakes are variable in coloration, occuring with banded, striped or nearly solid dorsal patterns.  The different color forms (morphs) can even be found in the same population (Jonathon M. Beck, pers. com. 1995).  The pattern I have mainly encountered consists of a wide, orange dorsal stripe that is broken by black saddles, forming a banded appearance.  This banded pattern can occur without the reddish-orange dorsal stripe, causing a light and dark banded coloration.  Other color patterns include the reddish-orange dorsal stripe without any black saddles, and nearly solid gray dorsal coloration with only a faint (if any) dorsal stripe.  The reddish-orange banded individuals could possibly be confused with Longnose Snakes.   However, Western Ground Snakes lack the profuse white speckling and the single caudal scales that Longnose Snakes have.  Other morphological features of Western Ground Snakes are smooth scales, round pupils and a slight spine on the tip of the tail (Nussbaum et al. 1983).",
+    "What to do if Bitten": "strike when threatened or deliberately provoked,but given room they will retreat.",
+    "Link" : "https://en.wikipedia.org/wiki/Western_ground_snake"
+  },
+  {
+    "Species": "Southwestern Blackhead Snake",
+    "Image": [
+      {
+        "asset": "assets/Black.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "You’ll find the Southwestern black-headed snake in California, Nevada, Utah, Colorado, Arizona, New Mexico, and Texas, as well as in northern Mexico. They are nocturnal, secretive snakes, spending most of their time buried under moist leaf litter, rocks, or debris, where they hunt soft-bodied insects and centipedes.",
+    "What to do if Bitten": "If you’re ever bitten by a Southwestern black-headed snake, make sure to get it checked out. These snakes are not venomous, but with any wild animal bite there’s a risk of infection.",
+    "Link" : "https://www.animalcontrolsolutions.com/animals/southwestern-black-headed-snake-control.html"
+  },
+  {
+    "Species": "western black-headed snake",
+    "Image": [
+      {
+        "asset": "assets/WBlack.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "Western black-headed snake (Tantilla planiceps), also known as the California black-headed snake,[2] is a snake species endemic to the Californias (the U.S. State of California and the Baja California Peninsula in Mexico), as north as the San Francisco Bay and as far east as western Utah, and Texas.  It lives in mostly moist pockets in mostly arid or semiarid environments and spends much of its life underground. It has a flattened head as most crevice-dwellers and is seven to fifteen inches in size. It is brown, slender, olive-gray, with a black head bordered by a white collar. Its habitat is often in woodland, desert areas, grassland and along arroyos in areas that are wet in a usually dry region",
+    "What to do if Bitten": "make sure to get it checked out. ",
+    "Link" : "https://en.wikipedia.org/wiki/Western_black-headed_snake"
+  },
+  {
+    "Species": "Garter Snake",
+    "Image": [
+      {
+        "asset": "assets/Gar.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Garter snakes come in a wide variety of colors depending on the species, but “most have three longitudinal stripes — one in the center of the back and one on each lower side of the body, according to herpetologist Jeff Beane, collections manager of amphibians and reptiles at the North Carolina Museum of Natural Sciences. In most species, the stripes are yellowish or greenish, but this varies with species and region.”",
+    "What to do if Bitten": "While most species are classified as harmless (non-venomous), their bite can cause minor swelling or itching in humans, and anyone bitten by a garter snake should clean the bite thoroughly. It is not ultimately a cause for concern. Allergic reactions to the saliva have been known, but cases are extremely rare, according to the ADW.",
+    "Link" : "https://www.livescience.com/44072-garter-snake.html"
+  },
+  {
+    "Species": "Sonoran Lyre Snake",
+    "Image": [
+      {
+        "asset": "assets/Son.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": ": A medium sized (up to 1,026 mm or 40 in total length) light gray-brown to gray snake with a prominent dark brown lyre-shaped marking on the top of the head and a dark bar crossing the top of the head between the eyes. There are fewer than 30 (an average of 24) dark, orange-brown, jagged-edged blotches on the back. Each dorsal blotch is outlined in pale gray and divided by a pale-gray central crossbar. Small dark additional markings are present on the sides of the body between the primary blotches. The head is broad posteriorly and is clearly distinct from the slender neck. The eyes are large and the pupils are vertically elliptical. The underside is light cream, yellow, or gray, occasionally with sporadic dark brown flecking. The scales are smooth.",
+    "What to do if Bitten": "Easily alarmed, the lyre snake will raise its body off the ground, shake its tail, hiss, and strike and bite the intruder if not left alone. This behavior, along with the body pattern, triangular head, and elliptical pupils, sometimes causes the lyre snake to be mistaken for a rattlesnake",
+    "Link" : "https://www.desertmuseum.org/books/nhsd_lyre_snake.php"
+  },
+  {
+    "Species": "California Lyresnake",
+    "Image": [
+      {
+        "asset": "assets/CaliLy.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Capable of delivering a mild venom from small fangs in the rear of the mouth, but the venom is not considered dangerous to humans. Handle this snake with caution, as some people have had unpleasant reactions to this snake's bite, especially when the snake is allowed to chew, which helps to put more venom into the skin. Symptoms can include local swelling, redness, itching, and numbness, but the the effects are not systemic.",
+    "What to do if Bitten": "Not likely to cause significant effects; non-lethal",
+    "Link" : "http://www.toxinology.com/fusebox.cfm?fuseaction=main.snakes.display&mode=PrintFriendly&id=SN2441"
+  },
+  {
+    "Species": "Western Threadsnake",
+    "Image": [
+      {
+        "asset": "assets/WestThr.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": "Primarily nocturnal and crepuscular. It spends the majority of its time burrowed underground. It is encountered on the surface crossing roadways on warm spring evenings. It hibernates during the cold months of late fall and winter. When captured this snake exhibits defensive behaviors that include writhing, releasing musk, and poking with its harmless tail spine.",
     "What to do if Bitten": "",
-    "Link" :
+    "Link" : "http://www.reptilesofaz.org/Snakes-Subpages/h-l-humilis.html"
+  },
+  {
+    "Species": "Brahminy blind snake",
+    "Image": [
+      {
+        "asset": "assets/Blind.jpg"
+      }
+    ],
+    "Venom": "Non-Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_negative.jpg"
+      }
+    ],
+    "Lethal": "Non-Lethal",
+    "Information": " The Brahminy Blind Snake burrows in the soil and leaflitter, and is found under rotting logs, leaves, and trash. Most often it is found in flower beds while gardening, and on sidewalks after rain",
+    "What to do if Bitten": "",
+    "Link" : "https://en.wikipedia.org/wiki/Indotyphlops_braminus"
+  },
+  {
+    "Species": "Western Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/WestRat.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "Rattlesnakes are large, venomous snakes that are found throughout North and South America. The greatest concentration of them is in the Southwestern United States",
+    "What to do if Bitten": "The first and most important thing to do is get away from the snake, as they can strike again if they feel threatened. Don’t waste time trying to catch the snake, but try to remember its size and color. This may help your medical team identify which species it was that bit you and locate the correct antivenin.Seek medical assistance as soon as possible. Call for an ambulance if you’re able to.There are some common misconceptions about the treatment of rattlesnake bites. While waiting for the ambulance, here’s how to minimize your risk:Don’t raise the area above the level of the heart. If you do this, your blood containing rattlesnake venom will reach your heart more quickly.Stay as still as possible, as movement will increase your blood flow and the venom will circulate faster.Remove any tight clothing or jewelry before you start to swell.Let the wound bleed, as this may allow some of the venom to be released.Don’t wash the wound, as your medical team may be able to use some of the venom from your skin to more quickly identify the correct antivenin.Place a clean bandage on the wound.Try to remain calm, as anxiety and panic can increase your heart rate, which will cause the venom to spread.If you begin to experience signs of shock, try to lie down on your back, raise your feet slightly, and keep warm.Don’t cut the wound, as this doesn’t help and you could cause an infection.Don’t try to suck the venom from the wound, as you then introduce the venom to your mouth as well as introduce the bacteria from your mouth to the wound.Don’t use a tourniquet or apply ice or water.",
+    "Link" : "https://www.livescience.com/43683-rattlesnake.html"
+  },
+  {
+    "Species": "red diamond rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/REdDi.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "Crotalus ruber is a venomous pit viper species found in southwestern California in the United States and Baja California in Mexico. ",
+    "What to do if Bitten": "All snake bites should be considered as medical emergencies and evaluated by trained medical professionals, as soon as possible; the first 6-8 hours are particularly vital for preventing life-threatening symptoms. Failure to obtain early assessment and management from the highest level of care (available within the community) may potentially result in severe complications and death.",
+    "Link" : "https://www.dovemed.com/diseases-conditions/red-diamond-rattlesnake-bite/"
+  },
+  {
+    "Species": "Sidewinder",
+    "Image": [
+      {
+        "asset": "assets/SideW.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "A small species, adult specimens measure between 43 and 76 cm (17 and 30 in) in length. Most adults are 50–80 cm (19.5–31.5 in) in length.The females are larger than the males, which is unusual for this group of snakes.",
+    "What to do if Bitten": "While waiting for medical help: Move the person beyond striking distance of the snake. Have the person lie down with wound below the heart. Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. Cover the wound with loose, sterile bandage. Remove any jewelry from the area that was bitten. Remove shoes if the leg or foot was bitten. Do not: Cut a bite wound  Attempt to suck out venom Apply tourniquet, ice, or water Give the person alcohol or caffeinated drinks or any other medications",
+    "Link" : "https://www.webmd.com/first-aid/snakebite-treatment"
+  },
+  {
+    "Species": "Southwestern Speckled Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/spec.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The Southwestern Speckled Rattlesnake (Crotalus pyrrhus) is a pit viper of moderate size (< 1370 mm, but most are <1000 mm total length (TL)). As with other Crotalus, it has vertically elliptical pupils, a heat-sensing pit between the eye and nostril on each side, and prominent rattles on the tail. The Speckled Rattlesnake is highly variable in dorsal background color, including gray, blue-gray, tan, yellowish-pink, orange, and cream. Background color often, but not always, resembles the color of the rocks in the snake’s habitat. From 23 to 46 dark crossbands, which often narrow laterally and may form blotches anteriorly, overlay the background color on the body. Another 3-9 dark crossbands are found on the tail. Crossbands are vague in some specimens and regions, and each crossband is often split by a lighter, central area. Dorsal scales are keeled, in 21-27 rows at mid-body, and speckled. The rostral scale is separated from the anterior nasal scales by one or more small scales. The upper preocular scales are divided. Commonly there are two loreals per side, but that number varies from none to five. The anal plate is undivided (Lemm 2006, Ernst and Ernst 2012, Meik 2016).",
+    "What to do if Bitten": "Bite symptoms in humans include significant edema, discoloration around the bite, and pain. However, recovery is usually complete and uneventful after treatment with antivenin",
+    "Link" : "https://www.webmd.com/first-aid/snakebite-treatment"
+  },
+  {
+    "Species": "Mojave Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/Moj.png"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The color varies from shades of brown to pale green depending on the surroundings. The green hue found among Mojave rattlesnakes has led to them being known as Mojave greens in some areas. Like C. atrox (the western diamondback rattlesnake), which it closely resembles, C. scutulatus has a dark diamond pattern along its back. With C. scutulatus, the white bands on the tail tend to be wider than the black, while the band width is usually more equal in C. atrox. Additionally, C. scutulatus has enlarged scales on top of the head between the supraoculars, and the light postocular stripe passes behind the corner of the mouth. In C. atrox, the crown is covered in small scales, and the light postocular stripe intersects the mouth.",
+    "What to do if Bitten": "needed to get to the ER right away.",
+    "Link" : "https://www.tripsavvy.com/about-rattlesnake-bites-2677343"
+  },
+  {
+    "Species": "panamint rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/Pan.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "A long, heavy-bodied snake with a thin neck, a large triangular head, and a rattle on the end of the tail consisting of loose interlocking hollow segments.  A new rattle segment is added each time the skin is shed, which can be more than one time per year.",
+    "What to do if Bitten": "All snake bites should be considered as medical emergencies and evaluated by trained medical professionals, as soon as possible; the first 6-8 hours are particularly vital for preventing life-threatening symptoms. Failure to obtain early assessment and management from the highest level of care (available within the community) may potentially result in severe complications and death.",
+    "Link" : "https://www.dovemed.com/diseases-conditions/panamint-rattlesnake-bite/"
+  },
+  {
+    "Species": "Western Diamondback Rattlesnake",
+    "Image": [
+      {
+        "asset": "assets/WDB.jpg"
+      }
+    ],
+    "Venom": "Venomous",
+    "VenomSymbol": [
+      {
+        "asset": "assets/venom_positive.jpg"
+      }
+    ],
+    "Lethal": "Lethal",
+    "Information": "The western diamondback rattlesnake or Texas diamond-back is a venomous rattlesnake species found in the southwestern United States and Mexico. It is likely responsible for the majority of snakebite fatalities in northern Mexico and the greatest number of snakebites in the U.S. No subspecies are currently recognized.",
+    "What to do if Bitten": "While waiting for help to arrive, the American Red Cross advises to wash the wound and then apply a bandage to slow the spread of venom. The following steps should be taken when doing this:Check for feeling, warmth, and color of the limb and note any changes in skin color and temperature.Place the end of the bandage against the skin and wrap, using overlapping turns. Start at the point farthest from the heart and cover a long body section, such as an arm or calf. To wrap a joint, use figure of eight turns to support it.Check above and below the bite for feeling, warmth, and color, particularly in the fingers and toes.Check the tightness of the bandage so a finger can still pass easily but not loosely underneath it.Keep the injured area still and make sure it is lower than the heart. The person who has been bitten should only walk if absolutely necessary. Carry them to safety if possible.",
+    "Link" : "https://www.desertmuseum.org/kids/oz/long-fact-sheets/Diamondback%20Rattlesnake.php"
   }
 ]
