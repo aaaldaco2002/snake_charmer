@@ -57,15 +57,18 @@ class _WelcomeState extends State<Welcome> {
                         ]
                         ),
                 Row(
-                  child: Container(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                   Container(
                     decoration: BoxDecoration(
                       border: Border.all(
                         width: 3.0,
                         color: Colors.white,
                       )
                     ),
-                   child: FlatButton(
-                      child: Text(
+                      child: FlatButton(
+                        child: Text(
                         'Let me Begin!',
                           style: TextStyle(
                             color: Colors.white,
@@ -78,8 +81,9 @@ class _WelcomeState extends State<Welcome> {
                                 MaterialPageRoute(
                                 builder: (context) => MyHomePage())),
                     ),
-,
-                )]               ),
+                )
+                    ]
+                ),
                         ]
                         ),
                       ),
