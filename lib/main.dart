@@ -4,9 +4,54 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:snake_charmer/confirmation_screen.dart';
 import 'package:snake_charmer/home_page.dart';
 import 'package:snake_charmer/welcome_screen.dart';
+import 'package:camera/camera.dart'
 
-void main() => runApp(MyApp());
+List<CameraDesciption> cameras;
 
+Future<void> main() async{
+  cameras = await availableCamera();
+  runApp(CameraApp());
+}
+
+class CameraApp extends StatefulWidget{
+  @override
+  _CameraAppState createState() => _CameraAppState();
+}
+
+class _CameraAppState extends State<CameraApp> {
+  CameraController controller;
+
+  @override
+  void initState(){
+    super.initState();
+    controller = CameraController(cameras[0], ResolutionPreset.medium);
+    controller.intialize().then((_)
+        if (!mounted) {
+          return;
+    }
+    setState(() {});
+  });
+}
+
+@override
+void dispose(){
+  controller?.dispose();
+  super.dispose()l
+}
+
+@override
+Widget build(BuildContext context){
+  if(!controller.value.isInitialized){
+    return Container();
+  }
+}
+return AspectRatio(
+aspectRatio:
+controller.value.aspectRatio,
+child: CameraPreview(controller));
+}
+}
+)
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override

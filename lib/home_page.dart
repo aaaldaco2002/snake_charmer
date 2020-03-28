@@ -4,6 +4,7 @@ import 'package:snake_charmer/confirmation_screen.dart';
 import 'package:snake_charmer/detail_view.dart';
 import 'package:snake_charmer/filter_home.dart';
 import 'package:snake_charmer/info_page.dart';
+import 'package:camera/camera.dart'
 import 'dart:io';
 
 class MyHomePage extends StatefulWidget {
