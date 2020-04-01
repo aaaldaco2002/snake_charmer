@@ -9,6 +9,8 @@ import 'dart:io';
 
 class MyHomePage extends StatefulWidget {
   //widget is UI and layout and styling
+  var cameras;
+  MyHomePage(this.cameras);
   MyHomePage({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
@@ -187,8 +189,7 @@ class _MyHomePageState extends State<MyHomePage> {
       persistentFooterButtons: <Widget>[
         IconButton(
           icon: Icon(Icons.camera_alt),
-          onPressed: () async {
-            File image = await _openCamera();
+          onPressed: openCamera;
             if (image != null) {
               Navigator.push(
                   context,

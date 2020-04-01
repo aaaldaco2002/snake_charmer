@@ -5,9 +5,158 @@
     "Information" : "A small constrictor with a stout body and a thick tail with a blunt end (that looks a bit like a head), and smooth shiny small-scaled loose and wrinkled skin, which gives the snake a rubbery look and feel.Eyes are small with vertically elliptical pupils.The top of the head is covered with large scales."
   },
   {
-    "Species": "Southern Rubber Boa",
+    "Species": "Coastal Rosy Boa",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "A small snake, the rosy boa normally attains a total length (including tail) of 17–34 in (43–86 cm), although some coastal specimens from California reach 36–44 in (91–112 cm). A large adult has a body width about the diameter of a golf ball. Coloration of the rosy boa is highly variable, and usually locale-specific. The common name is derived from the rosy or salmon coloration that is common on the belly of specimens of the rosy boa originating from coastal southern California and Baja Mexico. Most rosy boa specimens do not have this ventral coloration, but instead have a series of dark to orange spots on a light-colored background. Almost all specimens of the rosy boa have at least some trace of three longitudinal stripes, one down the center of the back, and two on the lower sides. The appearance of these stripes varies widely, from extremely straight and having high contrast with the interspaces, to extremely broken with almost no contrast with the interspaces. Stripe colors can be orange, maroon, rust, brown, or black. Interspace colors can be shades of light to dark gray, yellow, or tan."
+  },
+  {
+    "Species": "Glossy Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "The glossy snake and its many subspecies are all similar in appearance to gopher snakes. However, they are smaller than gopher snakes, with narrow, pointed heads, and a variety of skin patterns and colors. They appear washed-out or pale, hence the common name, faded snakes"
+  },
+  {
+    "Species": "Western Shovelnose Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "A small (up to 369 mm in total length) snake with more than 20 dark brown to black bands on a cream to light yellow background. Some subspecies have secondary orange saddles between the black bands (see subspecies descriptions below). The orange saddles are separated from the black by a margin of cream to light yellow background color. The posterior black bands usually completely encircle the body but the anterior bands do not. The snout is cream or light yellow. A black mask crosses the top of the head and covers the eyes. The underside is cream. With its countersunk jaw, valves in the nasal passages, concaved belly, and relatively flat snout, this snake is well equipped for burrowing under fine sand and loose gravel. The pupils are round and the scales are smooth and shiny. The Western Shovel-nosed Snake's light snout distinguishes it from the similar looking Sonoran Coralsnake which has a black snout. The similar Sonoran Shovel-nosed Snake has fewer than 21 black body bands."
+  },
+  {
+    "Species": "Eastern Racer",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "The eastern racers are fast-moving, highly active, diurnal snakes. Their diet consists primarily of small rodents, frogs, toads, lizards, and other snakes.[7] Some subspecies are known to climb trees to eat eggs and young birds. Juveniles often consume soft-bodied insects, such as crickets and moths[citation needed]. Despite their specific name, constrictor, they do not really employ constriction, instead simply subduing struggling prey by pinning it bodily, pressing one or two coils against it to hold it in place instead of actually suffocating it. Most smaller prey items are simply swallowed alive."
+  },
+  {
+    "Species": "Forest Sharp-Tailed Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "The sharp-tailed snake is a shy, secretive creature most often encountered under rocks and logs, and rarely to never found in the open.[8] It is able to persist in urban areas where appropriate cover can be found. It is known to burrow into soft soil or cracks in the clay, and may be encountered by people who are digging in the garden or removing concrete. When encountered, the sharp-tailed snake may roll into a ball and remain still. It can be mistaken for a worm by the casual observer."
+  },
+  {
+    "Species": "Ringneck Snake",
+    "DangerRating" : "Venomous, Non-Lethal",
+    "Information": "Diadophis punctatus, commonly known as the ring-necked snake or ringneck snake, is a harmless species of colubrid snake found throughout much of the United States, central Mexico, and southeastern Canada. Ring-necked snakes are secretive, nocturnal snakes, so are rarely seen during the day time. They are slightly venomous, but their nonaggressive nature and small, rear-facing fangs pose little threat to humans who wish to handle them. They are best known for their unique defense posture of curling up their tails, exposing their bright red-orange posterior, ventral surface when threatened."
+  },
+  {
+    "Species": "Desert Nightsnake",
+    "DangerRating": "Venomous, Non-Lethal",
+    "Information": "It is mildly venomous but rarely bites when captured and its venom is not considered to be dangerous to humans. DIET: The Desert Nightsnake uses mild venom injected by enlarged teeth in the rear upper jaw to subdue lizards and small snakes."
+  },
+  {
+    "Species": "Coast Night Snake",
+    "DangerRating" : "Venomous, Non-Lethal",
+    "Information": "The California night snake grows to a total length of 12 to 26 inches (30 to 66 cm), with hatchlings about 7 inches in total length.The snake has a narrow flat head, smooth dorsal scales in 19 rows, and eyes with vertically elliptical pupils. They are rear-fanged and considered to be venomous, but not dangerous to humans."
+  },
+  {
+    "Species": "California Kingsnake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "There is a rhyme to help you tell a deadly coral snake from its nonvenomous look-alike: “Red on yellow, kill a fellow; red on black, venom lack.” "
+  },
+  {
+    "Species": "California Mountain kingsnake",
+    "DangerRating": "Venomous, Non-Lethal",
+    "Information": "Secretive, but not rare in suitable habitat.Spends most of the time underground, under surface objects, or inside rock crevices."
+  },
+  {
+    "Species": "Coachwhip",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "Coachwhips are found throughout the southern United States from southeastern North Carolina to central California. In our region they are present in all but the mountainous areas of northern Georgia and northwestern South Carolina. Coachwhips are found throughout the Coastal Plain but are uncommon and patchily distributed in the Piedmont. They are particularly abundant in sandhills and coastal areas, including barrier islands"
+  },
+  {
+   "Species": "California Striped Whipsnake",
+   "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "A very fast-moving alert diurnal snake with good vision that is difficult to approach.Often crawls away very quickly when frightened, but when cornered will strike fiercely.Forages with the head elevated off the ground using vision more than scent to find prey."
+  },
+  {
+    "Species": "Banded Water Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "Adults average from 24-42 inches (61-106.7 cm). The record is 60 inches (152.4 cm). Stout bodied snake with black, brown, or red crossbands (often bordered with black) across back. Crossbands may be obscured as snake darkens with age. Background color may be gray, yellow, tan, or reddish. Belly is light with squarish spots. Scales are keeled and there are 21-25 dorsal scale rows at midbody. The pupil is round. A dark stripe extends from the eye to the angle of the jaw. Juveniles have very clear crossbands (usually black) on pale background."
+  },
+  {
+    "Species": "Western Leaf-nosed Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": ": It is a nocturnal ground dweller. It uses its enlarged rostral scale for burrowing and spends the majority of its time under the soil. It hibernates during the cold months of late fall and winter. It is commonly encountered on the surface at night in June."
+  },
+  {
+    "Species": "Gopher Snake",
+    "DangerRating": "Venomous, Non-Lethal",
+    "Information": "Pacific gopher snake adults range in size from 3–7 feet (91–213 cm) in total length. However, most of the subspecies reach a length of 4–5 feet (122–152 cm). The hatchlings are relatively long, and they have been recorded at lengths upward of 20 inches (51 cm)"
+  },
+  {
+    "Species": "Western Patch-nosed Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "A fast, moderately-sized slender striped snake with smooth scales, large eyes, and a large scale over the tip of the snout.There are 9 upper labial scales, one usually reaches the eye."
+  },
+  {
+    "Species": "Western Ground Snake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "Western Ground Snakes are variable in coloration, occuring with banded, striped or nearly solid dorsal patterns.  The different color forms (morphs) can even be found in the same population (Jonathon M. Beck, pers. com. 1995).  The pattern I have mainly encountered consists of a wide, orange dorsal stripe that is broken by black saddles, forming a banded appearance.  This banded pattern can occur without the reddish-orange dorsal stripe, causing a light and dark banded coloration.  Other color patterns include the reddish-orange dorsal stripe without any black saddles, and nearly solid gray dorsal coloration with only a faint (if any) dorsal stripe.  The reddish-orange banded individuals could possibly be confused with Longnose Snakes.   However, Western Ground Snakes lack the profuse white speckling and the single caudal scales that Longnose Snakes have.  Other morphological features of Western Ground Snakes are smooth scales, round pupils and a slight spine on the tip of the tail (Nussbaum et al. 1983)."
+  },
+  {
+    "Species": "Southwestern Blackhead Snake",
     "DangerRating" : "Non-Venomous, Lethal",
-    "Information" : ""
-
+    "Information": "You’ll find the Southwestern black-headed snake in California, Nevada, Utah, Colorado, Arizona, New Mexico, and Texas, as well as in northern Mexico. They are nocturnal, secretive snakes, spending most of their time buried under moist leaf litter, rocks, or debris, where they hunt soft-bodied insects and centipedes."
+  },
+  {
+    "Species": "western black-headed snake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "Western black-headed snake (Tantilla planiceps), also known as the California black-headed snake,[2] is a snake species endemic to the Californias (the U.S. State of California and the Baja California Peninsula in Mexico), as north as the San Francisco Bay and as far east as western Utah, and Texas.  It lives in mostly moist pockets in mostly arid or semiarid environments and spends much of its life underground. It has a flattened head as most crevice-dwellers and is seven to fifteen inches in size. It is brown, slender, olive-gray, with a black head bordered by a white collar. Its habitat is often in woodland, desert areas, grassland and along arroyos in areas that are wet in a usually dry region"
+  },
+  {
+    "Species": "Garter Snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "Garter snakes come in a wide variety of colors depending on the species, but “most have three longitudinal stripes — one in the center of the back and one on each lower side of the body, according to herpetologist Jeff Beane, collections manager of amphibians and reptiles at the North Carolina Museum of Natural Sciences. In most species, the stripes are yellowish or greenish, but this varies with species and region.”"
+  },
+  {
+    "Species": "Sonoran Lyre Snake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "A medium sized (up to 1,026 mm or 40 in total length) light gray-brown to gray snake with a prominent dark brown lyre-shaped marking on the top of the head and a dark bar crossing the top of the head between the eyes. There are fewer than 30 (an average of 24) dark, orange-brown, jagged-edged blotches on the back. Each dorsal blotch is outlined in pale gray and divided by a pale-gray central crossbar. Small dark additional markings are present on the sides of the body between the primary blotches. The head is broad posteriorly and is clearly distinct from the slender neck. The eyes are large and the pupils are vertically elliptical. The underside is light cream, yellow, or gray, occasionally with sporadic dark brown flecking. The scales are smooth."
+  },
+  {
+    "Species": "California Lyresnake",
+    "DangerRating" : "Venomous, Non-Lethal",
+    "Information": "Capable of delivering a mild venom from small fangs in the rear of the mouth, but the venom is not considered dangerous to humans. Handle this snake with caution, as some people have had unpleasant reactions to this snake's bite, especially when the snake is allowed to chew, which helps to put more venom into the skin. Symptoms can include local swelling, redness, itching, and numbness, but the the effects are not systemic."
+  },
+  {
+    "Species": "Western Threadsnake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": "Primarily nocturnal and crepuscular. It spends the majority of its time burrowed underground. It is encountered on the surface crossing roadways on warm spring evenings. It hibernates during the cold months of late fall and winter. When captured this snake exhibits defensive behaviors that include writhing, releasing musk, and poking with its harmless tail spine."
+  },
+  {
+    "Species": "Brahminy blind snake",
+    "DangerRating" : "Non-Venomous, Non-Lethal",
+    "Information": " The Brahminy Blind Snake burrows in the soil and leaflitter, and is found under rotting logs, leaves, and trash. Most often it is found in flower beds while gardening, and on sidewalks after rain"
+  },
+  {
+    "Species": "Western Rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "Rattlesnakes are large, venomous snakes that are found throughout North and South America. The greatest concentration of them is in the Southwestern United States"
+  },
+  {
+    "Species": "red diamond rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "Crotalus ruber is a venomous pit viper species found in southwestern California in the United States and Baja California in Mexico. "
+  },
+  {
+    "Species": "Sidewinder",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "A small species, adult specimens measure between 43 and 76 cm (17 and 30 in) in length. Most adults are 50–80 cm (19.5–31.5 in) in length.The females are larger than the males, which is unusual for this group of snakes."
+  },
+  {
+    "Species": "Southwestern Speckled Rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "The Southwestern Speckled Rattlesnake (Crotalus pyrrhus) is a pit viper of moderate size (< 1370 mm, but most are <1000 mm total length (TL)). As with other Crotalus, it has vertically elliptical pupils, a heat-sensing pit between the eye and nostril on each side, and prominent rattles on the tail. The Speckled Rattlesnake is highly variable in dorsal background color, including gray, blue-gray, tan, yellowish-pink, orange, and cream. Background color often, but not always, resembles the color of the rocks in the snake’s habitat. From 23 to 46 dark crossbands, which often narrow laterally and may form blotches anteriorly, overlay the background color on the body. Another 3-9 dark crossbands are found on the tail. Crossbands are vague in some specimens and regions, and each crossband is often split by a lighter, central area. Dorsal scales are keeled, in 21-27 rows at mid-body, and speckled. The rostral scale is separated from the anterior nasal scales by one or more small scales. The upper preocular scales are divided. Commonly there are two loreals per side, but that number varies from none to five. The anal plate is undivided (Lemm 2006, Ernst and Ernst 2012, Meik 2016)."
+  },
+  {
+    "Species": "Mojave Rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "The color varies from shades of brown to pale green depending on the surroundings. The green hue found among Mojave rattlesnakes has led to them being known as Mojave greens in some areas. Like C. atrox (the western diamondback rattlesnake), which it closely resembles, C. scutulatus has a dark diamond pattern along its back. With C. scutulatus, the white bands on the tail tend to be wider than the black, while the band width is usually more equal in C. atrox. Additionally, C. scutulatus has enlarged scales on top of the head between the supraoculars, and the light postocular stripe passes behind the corner of the mouth. In C. atrox, the crown is covered in small scales, and the light postocular stripe intersects the mouth."
+  },
+  {
+    "Species": "panamint rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "A long, heavy-bodied snake with a thin neck, a large triangular head, and a rattle on the end of the tail consisting of loose interlocking hollow segments.  A new rattle segment is added each time the skin is shed, which can be more than one time per year."
+  },
+  {
+    "Species": "Western Diamondback Rattlesnake",
+    "DangerRating" : "Venomous, Lethal",
+    "Information": "The western diamondback rattlesnake or Texas diamond-back is a venomous rattlesnake species found in the southwestern United States and Mexico. It is likely responsible for the majority of snakebite fatalities in northern Mexico and the greatest number of snakebites in the U.S. No subspecies are currently recognized."
   }
 ]
